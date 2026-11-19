@@ -24,12 +24,15 @@ Abra `http://localhost:8080`.
 ## Estrutura
 
 ```text
+index.html               entrada da raiz; encaminha para public/
 public/index.html       estrutura da interface
 public/style.css        identidade visual e responsividade
 public/script.js        trilhas, questões e progresso local
 public/manus-routes.json rotas declaradas do site
-.github/workflows/      publicação no GitHub Pages
+.github/workflows/      publicação do site no GitHub Pages
 ```
+
+O workflow publica diretamente `public/`. Se o GitHub Pages estiver configurado para servir a raiz da branch, o `index.html` da raiz encaminha o visitante para `public/`.
 
 ## Referências
 
