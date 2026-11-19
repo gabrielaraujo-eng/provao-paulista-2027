@@ -72,12 +72,14 @@
           </div>
         </div>
         <aside class="focus-card" aria-label="Seu foco de hoje">
-          <div class="focus-label">seu foco de hoje</div>
+          <div class="focus-label">seu próximo passo</div>
           <div class="focus-number" id="focus-number">01</div>
           <strong id="focus-title">Escolha uma trilha</strong>
-          <p id="focus-text">Comece por uma área e marque seu primeiro tópico concluído.</p>
-          <div class="mini-progress"><i id="focus-bar"></i></div>
-          <span id="focus-meta">0 tópicos concluídos</span>
+          <p id="focus-topic">Selecione uma trilha para ver o próximo tópico.</p>
+          <p id="focus-text">Um tópico por vez já faz diferença.</p>
+          <div class="mini-progress" role="progressbar" aria-label="Progresso da trilha" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="focus-bar"></i></div>
+          <button class="btn btn-secondary" id="btn-topic-done" type="button">Marcar tópico como feito</button>
+          <p class="focus-meta" id="focus-meta">0 tópicos concluídos</p>
         </aside>
       </section>
 
@@ -88,7 +90,7 @@
 
       <section class="section" id="trilhas" aria-labelledby="trilhas-title">
         <div class="section-head"><div><p class="eyebrow">mapa de revisão</p><h2 id="trilhas-title">Escolha sua trilha</h2></div><label class="series-select">Série <select id="series-select"><option value="1">1ª série</option><option value="2">2ª série</option><option value="3">3ª série</option></select></label></div>
-        <div class="tracks" id="tracks"></div>
+        <div class="tracks" id="tracks" role="group" aria-label="Trilhas de estudo"></div>
         <noscript><p>Ative o JavaScript para abrir as trilhas interativas. O mapa inicial inclui Matemática, Linguagens, Ciências Humanas, Ciências da Natureza e Redação, com revisão de porcentagem, funções, interpretação de texto, história, geografia, ecologia e produção textual.</p></noscript>
       </section>
 

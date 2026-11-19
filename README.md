@@ -9,7 +9,8 @@ Um site estático de estudo, em português, para organizar a revisão do Provão
 - Trilhas de Matemática, Linguagens, Humanas, Natureza e Redação.
 - Seleção da série do Ensino Médio.
 - Sprint com questões rápidas e explicação após a resposta.
-- Progresso e desempenho salvos no `localStorage` do navegador.
+- Marcação de tópicos concluídos, progresso e desempenho salvos no `localStorage` do navegador.
+- Alto contraste persistente, estados acessíveis dos controles e foco de teclado visível.
 - Layout responsivo e confortável para celular.
 - SEO inicial completo: canonical, Open Graph, Twitter Card, JSON-LD, favicon, `robots.txt` e `sitemap.xml`.
 - Publicação automática da pasta `public/` no GitHub Pages.
