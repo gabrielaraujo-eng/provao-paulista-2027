@@ -22,11 +22,12 @@ Criar um site estático, simples e mobile-first para ajudar estudantes a organiz
 
 ## Estrutura
 
-- `public/index.html`: conteúdo e componentes da página.
-- `public/style.css`: design responsivo e modo de alto contraste.
-- `public/script.js`: dados das trilhas, sprint e `localStorage`.
+- `public/index.html`: componentes da página, seleção de série, trilhas, aulas e prática.
+- `public/style.css`: identidade responsiva, estados acessíveis e temas claro/escuro.
+- `public/script.js`: carregamento do curso, exercícios, sprint diário e progresso no `localStorage`.
+- `public/data/courses.json`: aulas e questões originais agrupadas por série e matéria.
 - `.github/workflows/pages.yml`: publicação da pasta `public`.
 
 ## Conteúdo
 
-Os tópicos iniciais são um mapa de revisão geral baseado no Currículo Paulista e em referências oficiais disponíveis. O site deve deixar explícito que a edição 2027 pode atualizar edital, matriz e calendário.
+As aulas e questões são uma seleção original de prática organizada por série, não conteúdo oficial nem uma reprodução de prova. O aviso no site deve orientar estudantes a consultar o edital, a matriz e as instruções oficiais da edição 2027 quando publicados.

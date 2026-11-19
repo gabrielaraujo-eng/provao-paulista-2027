@@ -8,5 +8,9 @@
 - [x] Adaptar a interface para celular com botões confortáveis.
 - [x] Incluir aviso para conferir edital e orientações oficiais.
 - [x] Preparar publicação automática da pasta `public/` no GitHub Pages.
+- [x] Criar conteúdo distinto para a 1ª, 2ª e 3ª séries em Matemática, Linguagens, Humanas, Natureza e Redação.
+- [x] Ensinar cada aula com explicação, exemplo resolvido e duas questões comentadas antes de permitir sua conclusão.
+- [x] Substituir o sprint repetitivo por cinco questões diárias selecionadas de um banco de 90 exercícios originais, variando por série e dia.
+- [x] Alternar entre tema claro e escuro e salvar a preferência no navegador.
 - [ ] Atualizar conteúdos quando a matriz ou o edital oficial de 2027 forem publicados.
 - [ ] Adicionar banco online e ranking somente após definir autenticação e regras de segurança.

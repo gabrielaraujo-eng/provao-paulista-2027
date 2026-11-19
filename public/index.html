@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f5efe5">
-  <meta name="description" content="Estude para o Provão Paulista 2027 com trilhas de revisão, sprints rápidos, questões comentadas e progresso salvo no navegador.">
+  <meta name="description" content="Estude para o Provão Paulista 2027 com aulas por série, exemplos resolvidos, exercícios comentados e sprints diários.">
   <meta name="author" content="Gabriel Araújo">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="keywords" content="Provão Paulista 2027, estudar Provão Paulista, questões Provão Paulista, revisão Ensino Médio, Matemática, redação">
@@ -13,7 +13,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="apple-touch-icon" href="assets/favicon.svg">
   <meta property="og:title" content="Provão Paulista 2027 · estudo em ritmo de sprint">
-  <meta property="og:description" content="Um mapa de estudos simples para revisar Matemática, Linguagens, Humanas, Natureza e Redação.">
+  <meta property="og:description" content="Aulas curtas, exemplos e exercícios comentados em Matemática, Linguagens, Humanas, Natureza e Redação.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gabrielaraujo-eng.github.io/provao-paulista-2027/">
   <meta property="og:site_name" content="Provão Paulista 2027">
@@ -25,7 +25,7 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Provão Paulista 2027 · estudo em ritmo de sprint">
-  <meta name="twitter:description" content="Trilhas, questões rápidas e progresso para organizar sua revisão do Provão Paulista 2027.">
+  <meta name="twitter:description" content="Aulas por série, exemplos resolvidos e sprints diários para estudar o Provão Paulista 2027.">
   <meta name="twitter:image" content="https://gabrielaraujo-eng.github.io/provao-paulista-2027/assets/provao-paulista-2027-og.png">
   <meta name="twitter:image:alt" content="Provão Paulista 2027 — estudo em ritmo de sprint">
   <title>Provão Paulista 2027 · estude em ritmo de sprint</title>
@@ -38,7 +38,7 @@
     "alternateName":"Estudo Provão Paulista",
     "url":"https://gabrielaraujo-eng.github.io/provao-paulista-2027/",
     "inLanguage":"pt-BR",
-    "description":"Plataforma estática de revisão com trilhas e sprints de estudo para o Provão Paulista 2027.",
+    "description":"Cursos gratuitos de Ensino Médio com aulas por série, exercícios comentados e sprints diários originais para o Provão Paulista 2027.",
     "publisher":{"@type":"Person","name":"Gabriel Araújo","url":"https://github.com/gabrielaraujo-eng"},
     "isAccessibleForFree":true,
     "educationalLevel":"Ensino Médio"
@@ -57,7 +57,7 @@
         <a href="#sprint">Sprint</a>
         <a href="#progresso">Progresso</a>
       </nav>
-      <button class="icon-btn" id="btn-theme" type="button" title="Alternar contraste" aria-label="Alternar contraste">◐</button>
+      <button class="icon-btn" id="btn-theme" type="button" title="Ativar tema escuro" aria-label="Ativar tema escuro" aria-pressed="false">☾</button>
     </header>
 
     <main id="inicio">
@@ -65,10 +65,10 @@
         <div class="hero-copy">
           <p class="eyebrow">um passo por vez · sem enrolação</p>
           <h1 id="hero-title">Estude para o <em>Provão</em> sem se perder.</h1>
-          <p class="lead">Um mapa de revisão para transformar matérias grandes em sprints curtos, claros e possíveis de manter.</p>
+          <p class="lead">Aulas curtas, exemplos resolvidos e exercícios comentados para aprender no seu ritmo.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#sprint">Começar sprint <span>→</span></a>
-            <a class="text-link" href="#trilhas">Ver trilhas</a>
+            <a class="btn btn-primary" href="#trilhas">Começar uma aula <span>→</span></a>
+            <a class="text-link" href="#sprint">Fazer sprint do dia</a>
           </div>
         </div>
         <aside class="focus-card" aria-label="Seu foco de hoje">
@@ -78,26 +78,50 @@
           <p id="focus-topic">Selecione uma trilha para ver o próximo tópico.</p>
           <p id="focus-text">Um tópico por vez já faz diferença.</p>
           <div class="mini-progress" role="progressbar" aria-label="Progresso da trilha" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="focus-bar"></i></div>
-          <button class="btn btn-secondary" id="btn-topic-done" type="button">Marcar tópico como feito</button>
+          <button class="btn btn-secondary" id="btn-go-lesson" type="button">Ir para próxima aula</button>
           <p class="focus-meta" id="focus-meta">0 tópicos concluídos</p>
         </aside>
       </section>
 
       <section class="notice" aria-label="Aviso sobre o conteúdo">
         <span class="notice-mark">i</span>
-        <p>Este é um mapa de estudos inicial baseado no Currículo Paulista e em referências públicas. Confira o edital e as orientações oficiais do <a href="https://provaopaulistaseriado.vunesp.com.br/" target="_blank" rel="noreferrer">Provão Paulista Seriado</a> quando forem publicados.</p>
+        <p>As aulas e questões são originais para prática e não são questões oficiais. Use-as junto ao edital e às orientações do <a href="https://provaopaulistaseriado.vunesp.com.br/" target="_blank" rel="noreferrer">Provão Paulista Seriado</a>.</p>
       </section>
 
       <section class="section" id="trilhas" aria-labelledby="trilhas-title">
-        <div class="section-head"><div><p class="eyebrow">mapa de revisão</p><h2 id="trilhas-title">Escolha sua trilha</h2></div><label class="series-select">Série <select id="series-select"><option value="1">1ª série</option><option value="2">2ª série</option><option value="3">3ª série</option></select></label></div>
+        <div class="section-head"><div><p class="eyebrow">aprenda em etapas</p><h2 id="trilhas-title">Escolha uma matéria</h2></div><label class="series-select">Série <select id="series-select"><option value="1">1ª série</option><option value="2">2ª série</option><option value="3">3ª série</option></select></label></div>
         <div class="tracks" id="tracks" role="group" aria-label="Trilhas de estudo"></div>
-        <noscript><p>Ative o JavaScript para abrir as trilhas interativas. O mapa inicial inclui Matemática, Linguagens, Ciências Humanas, Ciências da Natureza e Redação, com revisão de porcentagem, funções, interpretação de texto, história, geografia, ecologia e produção textual.</p></noscript>
+        <div class="course-shell" id="course-shell">
+          <aside class="course-list" aria-labelledby="course-list-title">
+            <p class="eyebrow">aulas da trilha</p>
+            <h3 id="course-list-title">Carregando aulas...</h3>
+            <p class="course-list-intro">Escolha uma aula. Leia a explicação, veja o exemplo e pratique.</p>
+            <div class="lesson-list" id="lesson-list"></div>
+          </aside>
+          <article class="lesson-view" aria-labelledby="lesson-title">
+            <div class="lesson-heading">
+              <span class="pill" id="lesson-position">Aula 1</span>
+              <span class="lesson-objective" id="lesson-objective">Preparando seu curso...</span>
+            </div>
+            <h3 id="lesson-title" tabindex="-1">Carregando conteúdo...</h3>
+            <div class="lesson-copy" id="lesson-copy"></div>
+            <div class="worked-example"><span class="eyebrow">exemplo resolvido</span><p id="lesson-example"></p></div>
+            <div class="lesson-practice">
+              <div class="lesson-practice-heading"><div><p class="eyebrow">agora é sua vez</p><h4 id="practice-title">Pratique o que aprendeu</h4></div><span class="pill" id="practice-count">1 de 2</span></div>
+              <p class="practice-prompt" id="practice-prompt"></p>
+              <div class="answers" id="lesson-answers"></div>
+              <p class="feedback" id="lesson-feedback" role="status" aria-live="polite"></p>
+              <div class="lesson-actions"><button class="btn btn-secondary" id="btn-lesson-next" type="button" disabled>Próxima questão →</button><button class="btn btn-primary" id="btn-lesson-done" type="button" disabled>Concluir aula</button></div>
+            </div>
+          </article>
+        </div>
+        <noscript><p>Ative o JavaScript para carregar as aulas e os exercícios interativos de Matemática, Linguagens, Humanas, Natureza e Redação para a série escolhida.</p></noscript>
       </section>
 
       <section class="section split" id="sprint" aria-labelledby="sprint-title">
         <div class="sprint-panel">
           <div class="section-head compact"><div><p class="eyebrow">treino relâmpago</p><h2 id="sprint-title">Sprint do dia</h2></div><span class="pill" id="question-count">1 de 5</span></div>
-          <p class="sprint-intro">Cinco questões rápidas para aquecer. Não vale decorar: tente explicar seu raciocínio.</p>
+          <p class="sprint-intro" id="sprint-intro">Cinco questões diferentes a cada dia, selecionadas da matéria da série escolhida.</p>
           <div class="question-card" id="question-card">
             <span class="question-area" id="question-area">Matemática</span>
             <h3 id="question-text">Carregando questão...</h3>
@@ -115,7 +139,7 @@
 
       <section class="section progress-section" id="progresso" aria-labelledby="progress-title">
         <div class="section-head"><div><p class="eyebrow">constância vence a pressa</p><h2 id="progress-title">Seu progresso</h2></div><button class="text-btn" id="btn-clear" type="button">Zerar progresso</button></div>
-        <div class="progress-grid"><div class="progress-total"><strong id="progress-percent">0%</strong><span>do mapa concluído</span><div class="big-progress"><i id="progress-bar"></i></div></div><div class="stat"><strong id="stat-done">0</strong><span>tópicos feitos</span></div><div class="stat"><strong id="stat-sprints">0</strong><span>sprints completos</span></div><div class="stat"><strong id="stat-accuracy">—</strong><span>precisão nos sprints</span></div></div>
+        <div class="progress-grid"><div class="progress-total"><strong id="progress-percent">0%</strong><span>do curso concluído</span><div class="big-progress"><i id="progress-bar"></i></div></div><div class="stat"><strong id="stat-done">0</strong><span>aulas concluídas</span></div><div class="stat"><strong id="stat-sprints">0</strong><span>sprints completos</span></div><div class="stat"><strong id="stat-accuracy">—</strong><span>precisão nas questões</span></div></div>
       </section>
     </main>
 

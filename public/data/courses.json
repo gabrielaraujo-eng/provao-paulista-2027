@@ -1,0 +1,1670 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "grade": "1",
+      "areaId": "mat",
+      "lessons": [
+        {
+          "id": "1-mat-razao-porcentagem-1",
+          "title": "Razão, porcentagem e proporcionalidade em situações de compra",
+          "objective": "Calcular razões unitárias, usar porcentagens para determinar descontos e reconhecer situações de proporcionalidade direta.",
+          "lesson": "Razão é uma comparação entre duas quantidades por meio de uma divisão; por exemplo, a razão entre 30 reais e 4 kg é 30 ÷ 4 = 7,50 reais por quilograma. Porcentagem significa uma quantidade por 100: p% de um valor V é (p ÷ 100) × V, e um desconto deve ser subtraído do preço inicial. Duas grandezas são diretamente proporcionais quando uma cresce ou diminui na mesma proporção que a outra, mantendo constante o quociente entre elas. Em problemas de compra, calcular o preço por unidade ajuda a comparar ofertas e a prever o custo para outra quantidade, desde que o preço unitário permaneça o mesmo.",
+          "example": "Uma papelaria vende 3 cadernos por R$ 27,00 e oferece 10% de desconto sobre a compra de 5 cadernos. Primeiro, o preço unitário é 27 ÷ 3 = R$ 9,00; portanto, 5 cadernos custam 5 × 9 = R$ 45,00 antes do desconto. O desconto é 10% de 45, isto é, 0,10 × 45 = R$ 4,50. Subtraindo-o, o preço final é 45 − 4,50 = R$ 40,50.",
+          "questions": [
+            {
+              "id": "q-1-mat-razao-porcentagem-01",
+              "lessonId": "1-mat-razao-porcentagem-1",
+              "prompt": "Em uma feira, 4 kg de laranjas custam R$ 30,00. Mantido o mesmo preço por quilograma, quanto custam 7 kg?",
+              "options": [
+                "R$ 45,00",
+                "R$ 52,50",
+                "R$ 56,00",
+                "R$ 67,50"
+              ],
+              "correct": 1,
+              "explanation": "O preço unitário é 30 ÷ 4 = R$ 7,50 por quilograma. Para 7 kg, calculamos 7 × 7,50 = R$ 52,50. A ideia é manter constante a razão entre preço e massa, característica da proporcionalidade direta."
+            },
+            {
+              "id": "q-1-mat-razao-porcentagem-02",
+              "lessonId": "1-mat-razao-porcentagem-1",
+              "prompt": "Uma mochila custa R$ 160,00 e está com desconto de 25% sobre o preço original. Qual é o preço após o desconto?",
+              "options": [
+                "R$ 40,00",
+                "R$ 120,00",
+                "R$ 125,00",
+                "R$ 135,00"
+              ],
+              "correct": 1,
+              "explanation": "O desconto corresponde a 25% de 160: 0,25 × 160 = R$ 40,00. O preço final é 160 − 40 = R$ 120,00. A porcentagem calcula a parte retirada, não o preço que resta."
+            }
+          ]
+        },
+        {
+          "id": "1-mat-funcao-afim-graficos-1",
+          "title": "Função afim: taxa de variação e leitura do gráfico",
+          "objective": "Interpretar os coeficientes de uma função afim e calcular valores do modelo para relacioná-los com pontos de seu gráfico.",
+          "lesson": "Uma função afim tem a forma f(x) = ax + b, em que x é a entrada, f(x) é a saída, a é a taxa de variação e b é o valor inicial. O coeficiente a indica quanto a saída muda quando x aumenta uma unidade; se a for positivo, a reta do gráfico cresce, e se for negativo, ela decresce. O coeficiente b é o valor de f(x) quando x = 0, isto é, onde a reta cruza o eixo vertical. Para interpretar um ponto (x, f(x)) do gráfico, associamos a entrada x à saída correspondente, sempre observando as unidades e o contexto do problema.",
+          "example": "Uma gráfica cobra R$ 6,00 de taxa fixa para preparar um pedido e mais R$ 0,40 por página impressa. Se x é o número de páginas e C(x) o custo em reais, o modelo é C(x) = 0,40x + 6. Para 20 páginas, C(20) = 0,40 × 20 + 6 = 8 + 6 = R$ 14,00. No gráfico, a reta cruza o eixo vertical em 6, pois esse valor é cobrado mesmo quando x = 0; a cada página acrescentada, o custo aumenta R$ 0,40.",
+          "questions": [
+            {
+              "id": "q-1-mat-funcao-afim-graficos-01",
+              "lessonId": "1-mat-funcao-afim-graficos-1",
+              "prompt": "Uma locadora cobra uma taxa fixa de R$ 8,00 mais R$ 3,00 por hora de uso de um equipamento. O custo C, em reais, após h horas é C(h) = 3h + 8. Quanto custa alugar o equipamento por 5 horas?",
+              "options": [
+                "R$ 15,00",
+                "R$ 23,00",
+                "R$ 40,00",
+                "R$ 13,00"
+              ],
+              "correct": 1,
+              "explanation": "Substituímos h = 5 no modelo: C(5) = 3 × 5 + 8 = 15 + 8 = R$ 23,00. O termo 3h representa o custo variável por hora e o 8 representa a taxa fixa inicial."
+            },
+            {
+              "id": "q-1-mat-funcao-afim-graficos-02",
+              "lessonId": "1-mat-funcao-afim-graficos-1",
+              "prompt": "A quantidade de água em um reservatório, em litros, após t minutos é dada por A(t) = 10 − 2t, no intervalo considerado. Qual interpretação dos coeficientes e do gráfico está correta?",
+              "options": [
+                "O reservatório começa com 2 litros e perde 10 litros por minuto.",
+                "O reservatório começa com 10 litros e ganha 2 litros por minuto.",
+                "O reservatório começa com 10 litros e perde 2 litros por minuto.",
+                "O reservatório começa vazio e ganha 10 litros por minuto."
+              ],
+              "correct": 2,
+              "explanation": "Em A(t) = −2t + 10, o valor inicial é A(0) = 10 litros e a taxa de variação é −2 litros por minuto. O sinal negativo indica que a quantidade diminui; no gráfico, isso corresponde a uma reta decrescente."
+            }
+          ]
+        },
+        {
+          "id": "1-mat-geometria-plana-escala-1",
+          "title": "Escalas em plantas e áreas de figuras semelhantes",
+          "objective": "Converter medidas de uma planta para medidas reais e relacionar mudanças de escala a comprimentos e áreas de figuras planas.",
+          "lesson": "A escala 1:n indica que 1 unidade no desenho representa n unidades reais, usando a mesma unidade nos dois lados; assim, medida real = medida no desenho × n. Antes de calcular, converta as unidades necessárias, como centímetros para metros, dividindo centímetros por 100. Para um retângulo, a área é base × altura, e o perímetro é 2 × (base + altura). Em figuras semelhantes, se os comprimentos são multiplicados por um fator k, as áreas são multiplicadas por k², pois duas dimensões lineares determinam cada área.",
+          "example": "Uma planta está na escala 1:200 e mostra um cômodo retangular com 3,5 cm por 2 cm. Na realidade, os lados medem 3,5 × 200 = 700 cm = 7 m e 2 × 200 = 400 cm = 4 m. A área real é 7 × 4 = 28 m². Portanto, o cômodo mede 7 m por 4 m e tem área de 28 m².",
+          "questions": [
+            {
+              "id": "q-1-mat-geometria-plana-escala-01",
+              "lessonId": "1-mat-geometria-plana-escala-1",
+              "prompt": "Em um mapa na escala 1:50, a distância entre dois pontos mede 6 cm. Qual é a distância real entre eles?",
+              "options": [
+                "0,12 m",
+                "3 m",
+                "30 m",
+                "300 m"
+              ],
+              "correct": 1,
+              "explanation": "Na escala 1:50, cada centímetro do mapa representa 50 cm reais. Então, 6 × 50 = 300 cm, que equivalem a 3 m. A conversão de centímetros para metros é necessária para apresentar a resposta na unidade pedida."
+            },
+            {
+              "id": "q-1-mat-geometria-plana-escala-02",
+              "lessonId": "1-mat-geometria-plana-escala-1",
+              "prompt": "Duas figuras planas são semelhantes, e cada comprimento da segunda figura é 3 vezes o comprimento correspondente da primeira. Se a área da primeira figura é 8 cm², qual é a área da segunda?",
+              "options": [
+                "24 cm²",
+                "72 cm²",
+                "8 cm²",
+                "216 cm²"
+              ],
+              "correct": 1,
+              "explanation": "Os comprimentos foram multiplicados por 3, então o fator de escala linear é k = 3. As áreas são multiplicadas por k² = 3² = 9; logo, a segunda área é 8 × 9 = 72 cm²."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "1",
+      "areaId": "ling",
+      "lessons": [
+        {
+          "id": "1-ling-genero-finalidade-1",
+          "title": "Aviso e resenha: como o gênero orienta a finalidade",
+          "objective": "Reconhecer a finalidade de um texto a partir do gênero, do público a que se dirige e de escolhas de linguagem.",
+          "lesson": "Gênero textual é uma forma de organizar textos que circulam em situações sociais, como avisos, resenhas, notícias e convites. A finalidade é o que o texto busca fazer naquela situação: informar, avaliar, convidar, orientar ou defender uma ideia, por exemplo. Para identificá-la, observe quem parece falar, para quem, em que contexto e quais marcas aparecem; o assunto sozinho não determina o gênero. Uma resenha, por exemplo, costuma apresentar uma obra e avaliá-la, enquanto um aviso comunica uma informação prática a um público definido.",
+          "example": "Leia: “A biblioteca ficará fechada na quinta-feira para manutenção. Os empréstimos com vencimento nessa data poderão ser renovados na sexta, sem multa.” Passo 1: o texto dirige-se a pessoas que usam a biblioteca e informa uma mudança de funcionamento. Passo 2: a data, o motivo e a orientação prática são marcas de um aviso. Resposta: é um aviso cuja finalidade principal é informar o fechamento e orientar os usuários sobre os empréstimos.",
+          "questions": [
+            {
+              "id": "1-ling-genero-finalidade-q1",
+              "lessonId": "1-ling-genero-finalidade-1",
+              "prompt": "Leia o texto: “À comunidade escolar: devido à manutenção elétrica, a biblioteca ficará fechada nesta quarta-feira. Os empréstimos com vencimento nesse dia poderão ser renovados sem multa.” Qual é a finalidade principal do texto e que gênero melhor o caracteriza?",
+              "options": [
+                "Convencer a comunidade a cancelar a manutenção, em um artigo de opinião.",
+                "Informar uma alteração de funcionamento e orientar os usuários, em um aviso.",
+                "Contar uma experiência pessoal na biblioteca, em uma narrativa autobiográfica.",
+                "Avaliar a qualidade dos serviços da biblioteca, em uma resenha crítica."
+              ],
+              "correct": 1,
+              "explanation": "O texto comunica um fechamento temporário e uma orientação sobre renovações a um público específico, marcas de um aviso. Não apresenta defesa de uma opinião, relato pessoal nem avaliação de serviço."
+            },
+            {
+              "id": "1-ling-genero-finalidade-q2",
+              "lessonId": "1-ling-genero-finalidade-1",
+              "prompt": "Um texto apresenta o enredo de um filme, comenta a atuação dos atores e conclui: “Apesar do ritmo irregular no início, o final bem construído torna o filme uma boa escolha para quem gosta de mistério.” Qual gênero e finalidade predominam?",
+              "options": [
+                "Uma resenha, que apresenta e avalia o filme para ajudar o público a formar uma opinião.",
+                "Uma notícia, que relata de modo imparcial um acontecimento recente sobre o filme.",
+                "Um aviso, que comunica ao público uma regra de funcionamento do cinema.",
+                "Uma receita, que orienta o leitor em etapas para produzir o filme."
+              ],
+              "correct": 0,
+              "explanation": "O texto combina apresentação da obra com avaliação explícita — “ritmo irregular” e “boa escolha” —, característica de uma resenha. A avaliação orienta a opinião do leitor; não é apenas relato de acontecimento ou instrução."
+            }
+          ]
+        },
+        {
+          "id": "1-ling-inferencia-evidencia-1",
+          "title": "Inferir sem inventar: pistas e evidências no texto",
+          "objective": "Construir uma inferência plausível e justificá-la com palavras ou informações presentes no texto.",
+          "lesson": "Inferir é concluir algo que não foi declarado diretamente, combinando pistas do texto com relações de sentido. A inferência precisa ser plausível, mas também precisa de evidência textual: um trecho ou detalhe que permita sustentá-la. Uma opinião possível não se torna uma boa interpretação apenas por parecer provável; se o texto não oferece pistas, ela é especulação. Ao responder, formule a conclusão e indique a evidência que a apoia, verificando se as duas realmente se conectam.",
+          "example": "Leia: “Caio conferiu duas vezes o número da linha do ônibus. Depois comparou o letreiro com o endereço anotado no papel e só então se sentou.” Passo 1: o texto não diz diretamente que Caio desconhece o trajeto. Passo 2: conferir a linha e compará-la com um endereço são pistas de que ele está verificando se o ônibus o levará ao destino certo. Resposta: é plausível inferir que Caio não está totalmente seguro do trajeto; a evidência são as duas conferências e a comparação com o endereço.",
+          "questions": [
+            {
+              "id": "1-ling-inferencia-evidencia-q1",
+              "lessonId": "1-ling-inferencia-evidencia-1",
+              "prompt": "Leia: “Lia abriu o guarda-chuva ainda na calçada. Antes de atravessar, olhou para o céu escuro; ao chegar ao prédio, sacudiu as gotas da capa.” Qual inferência é mais bem sustentada pelas pistas do texto?",
+              "options": [
+                "Lia estava se preparando para enfrentar chuva, como indicam o guarda-chuva, o céu escuro e as gotas na capa.",
+                "Lia voltava de uma viagem longa, pois o texto menciona um prédio.",
+                "Lia perdeu o guarda-chuva no caminho, porque sacudiu a capa ao chegar.",
+                "Lia não gosta de atravessar ruas, já que olhou para o céu antes de atravessar."
+              ],
+              "correct": 0,
+              "explanation": "A conclusão de que Lia se preparava para a chuva é apoiada por várias pistas convergentes: o guarda-chuva aberto, o céu escuro e as gotas na capa. As outras opções acrescentam acontecimentos ou sentimentos que o trecho não informa."
+            },
+            {
+              "id": "1-ling-inferencia-evidencia-q2",
+              "lessonId": "1-ling-inferencia-evidencia-1",
+              "prompt": "Leia: “Pedro disse que gostava de trabalhos em grupo. Em seguida, escolheu uma mesa, abriu o caderno e falou: ‘Vou organizar algumas ideias primeiro; depois juntamos as contribuições’.” Qual trecho é a melhor evidência de que Pedro pretende colaborar com o grupo, embora comece trabalhando sozinho?",
+              "options": [
+                "“Pedro disse que gostava de trabalhos em grupo.”",
+                "“Escolheu uma mesa, abriu o caderno.”",
+                "“Vou organizar algumas ideias primeiro; depois juntamos as contribuições.”",
+                "“Em seguida.”"
+              ],
+              "correct": 2,
+              "explanation": "A fala propõe uma sequência que inclui tanto a iniciativa individual quanto a reunião posterior das contribuições. Por isso, ela sustenta diretamente a inferência de que Pedro pretende colaborar. O gosto declarado, sozinho, não mostra como ele vai participar desta atividade."
+            }
+          ]
+        },
+        {
+          "id": "1-ling-coesao-argumentacao-1",
+          "title": "Conectivos e evidências para encadear um argumento",
+          "objective": "Organizar uma tese, uma razão e uma evidência, escolhendo conectivos que expressem corretamente as relações entre as ideias.",
+          "lesson": "Uma argumentação inicial apresenta uma tese (a posição defendida), razões que a justificam e, quando possível, evidências observáveis que apoiam essas razões. Coesão é a ligação entre partes do texto; conectivos como “porque”, “por isso” e “porém” sinalizam, respectivamente, explicação/causa, consequência e contraste. O conectivo deve corresponder à relação lógica entre as ideias: trocar “por isso” por “porém” pode alterar ou confundir o raciocínio. Uma evidência concreta, como um registro ou uma observação verificável, sustenta melhor uma tese do que uma afirmação vaga de que algo é “muito importante”.",
+          "example": "Considere a tese: “A escola deve ampliar o horário de funcionamento da biblioteca.” Passo 1: acrescente uma razão: “Muitos estudantes só conseguem estudar depois das aulas”. Passo 2: ligue a tese à razão com “porque”, que introduz uma justificativa: “A escola deve ampliar o horário da biblioteca porque muitos estudantes só conseguem estudar depois das aulas.” Passo 3: acrescente uma consequência prática: “Por isso, será necessário organizar uma escala de supervisão.” O parágrafo agora apresenta posição, motivo e uma consequência ligada por conectivos coerentes.",
+          "questions": [
+            {
+              "id": "1-ling-coesao-argumentacao-q1",
+              "lessonId": "1-ling-coesao-argumentacao-1",
+              "prompt": "Complete as lacunas com conectivos que mantenham a relação de sentido: “A biblioteca deveria abrir por mais tempo, ___ muitos estudantes só conseguem estudar depois das aulas; ___, a escola precisará organizar uma escala de supervisão.”",
+              "options": [
+                "porém; apesar disso",
+                "porque; por isso",
+                "embora; contudo",
+                "por isso; porque"
+              ],
+              "correct": 1,
+              "explanation": "“Porque” introduz a razão para ampliar o horário: muitos estudantes só podem estudar depois das aulas. “Por isso” introduz a consequência prática da proposta: será preciso organizar supervisão. Os outros pares indicam contraste ou invertem as relações."
+            },
+            {
+              "id": "1-ling-coesao-argumentacao-q2",
+              "lessonId": "1-ling-coesao-argumentacao-1",
+              "prompt": "A turma defende a tese “O pátio precisa de mais lixeiras para separar os resíduos”. Qual frase oferece a evidência mais concreta para apoiar essa tese?",
+              "options": [
+                "Separar resíduos é uma ideia excelente e todo mundo deveria concordar.",
+                "Um pátio organizado é sempre mais bonito do que um pátio desorganizado.",
+                "Na última semana, as três lixeiras do pátio ficaram cheias antes do fim do intervalo, e várias embalagens foram deixadas no chão.",
+                "A escola precisa tomar uma decisão importante sobre o pátio em algum momento."
+              ],
+              "correct": 2,
+              "explanation": "A frase apresenta uma observação delimitada e verificável — três lixeiras cheias antes do fim do intervalo e embalagens no chão — que se relaciona diretamente à necessidade de mais recipientes. As demais frases expressam opinião vaga ou não fornecem dados que sustentem a tese."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "1",
+      "areaId": "hum",
+      "lessons": [
+        {
+          "id": "1-hum-cartografia-1",
+          "title": "Escala numérica e orientação em mapas do entorno",
+          "objective": "Calcular distâncias reais a partir de uma escala numérica e interpretar direções usando a indicação do norte.",
+          "lesson": "Uma representação cartográfica seleciona e organiza informações do espaço; a legenda associa símbolos a elementos, e a seta do norte ajuda a orientar o mapa. A escala numérica 1:n indica que 1 unidade medida no mapa corresponde a n unidades iguais no terreno (por exemplo, 1 cm no mapa corresponde a n cm reais). Para converter, multiplique a medida no mapa por n e depois transforme o resultado para uma unidade útil; a escala não é a extensão física do mapa. Com o norte para cima, leste fica à direita, oeste à esquerda e sul abaixo, mas confirme a orientação pela seta antes de interpretar direções.",
+          "example": "Exemplo: uma trilha mede 3,6 cm em uma carta de escala 1:25.000. Passo 1: 1 cm representa 25.000 cm no terreno. Passo 2: 3,6 × 25.000 = 90.000 cm. Passo 3: 90.000 cm = 900 m. Resposta: a trilha mede 900 m; a conversão de centímetros para metros evita confundir a medida do mapa com a distância real.",
+          "questions": [
+            {
+              "id": "1-hum-cartografia-1-q1",
+              "lessonId": "1-hum-cartografia-1",
+              "prompt": "Em um mapa de escala 1:100.000, a distância entre dois pontos é de 4 cm. Qual é a distância correspondente no terreno?",
+              "options": [
+                "400 m",
+                "4 km",
+                "40 km",
+                "400 km"
+              ],
+              "correct": 1,
+              "explanation": "Na escala 1:100.000, cada 1 cm no mapa representa 100.000 cm no terreno, isto é, 1 km. Portanto, 4 cm representam 4 km. A ideia central é multiplicar pela escala e converter as unidades corretamente."
+            },
+            {
+              "id": "1-hum-cartografia-1-q2",
+              "lessonId": "1-hum-cartografia-1",
+              "prompt": "A seta do norte em um mapa aponta para o alto da página. Em relação à casa, o parque aparece à esquerda e abaixo. Em que direção fica o parque?",
+              "options": [
+                "Sudeste",
+                "Sudoeste",
+                "Nordeste",
+                "Noroeste"
+              ],
+              "correct": 1,
+              "explanation": "Com o norte voltado para o alto, a esquerda representa oeste e a parte de baixo representa sul. Como o parque está tanto a oeste quanto ao sul da casa, fica a sudoeste. A seta do norte permite relacionar a posição no papel às direções geográficas."
+            }
+          ]
+        },
+        {
+          "id": "1-hum-territorio-colonial-1",
+          "title": "Da ocupação litorânea à expansão colonial para o interior",
+          "objective": "Explicar como atividades econômicas, presença de diferentes povos e acordos políticos participaram da formação histórica do território brasileiro.",
+          "lesson": "Na colonização portuguesa, muitos núcleos iniciais se concentraram no litoral, ligado às rotas atlânticas e à produção açucareira, mas povos indígenas ocupavam e organizavam territórios antes e durante esse processo. Com o tempo, atividades como a criação de gado e a mineração contribuíram para a expansão de assentamentos e caminhos para o interior, em meio a conflitos, deslocamentos, negociações e resistências. O Tratado de Madri, de 1750, buscou redefinir limites entre possessões ibéricas na América e mobilizou o princípio do uti possidetis, relacionado à ocupação efetiva. Assim, a formação territorial não foi linear nem ocorreu em um espaço vazio: envolveu economia, ação de diferentes grupos, disputas e acordos, e as fronteiras mudaram historicamente.",
+          "example": "Exemplo: compare dois mapas, um com núcleos coloniais sobretudo no litoral e outro, posterior, que também mostra áreas de mineração no interior. Passo 1: identifique a mudança na localização dos núcleos. Passo 2: relacione a mineração à abertura de caminhos e ao crescimento de assentamentos no interior. Passo 3: interprete os mapas como registros de uma ocupação colonial que se transformava, sem concluir que não havia povos indígenas ou que as fronteiras mudaram automaticamente no mesmo instante. Resposta: as atividades econômicas ajudaram a ampliar a ocupação portuguesa para o interior, dentro de um processo histórico disputado.",
+          "questions": [
+            {
+              "id": "1-hum-territorio-colonial-1-q1",
+              "lessonId": "1-hum-territorio-colonial-1",
+              "prompt": "Um conjunto de mapas mostra núcleos coloniais concentrados no litoral em um período e, mais tarde, novos assentamentos ligados à mineração no interior. Qual interpretação é mais consistente com essa evidência?",
+              "options": [
+                "Diferentes atividades econômicas contribuíram para deslocar e ampliar a ocupação colonial, em um território que já era habitado por povos indígenas.",
+                "A mineração prova que todos os povos indígenas haviam deixado o interior antes da chegada dos colonizadores.",
+                "A localização dos assentamentos comprova que as fronteiras políticas mudaram automaticamente assim que a mineração começou.",
+                "A concentração litorânea demonstra que a colonização portuguesa permaneceu limitada à costa até a independência."
+              ],
+              "correct": 0,
+              "explanation": "A comparação indica que a ocupação colonial se expandiu ao longo do tempo e se relacionou a atividades como a mineração. Os mapas não provam o desaparecimento de povos indígenas nem permitem deduzir uma mudança automática de fronteiras. A ideia relevante é compreender a formação territorial como processo histórico, com presença de diferentes povos e disputas."
+            },
+            {
+              "id": "1-hum-territorio-colonial-1-q2",
+              "lessonId": "1-hum-territorio-colonial-1",
+              "prompt": "Ao estudar o Tratado de Madri (1750), uma turma aprende que a ocupação efetiva foi um princípio relacionado à negociação de limites na América. O que essa informação ajuda a compreender?",
+              "options": [
+                "Que as fronteiras atuais do Brasil já estavam definidas, sem mudanças, desde o início da colonização.",
+                "Que os limites foram negociados historicamente e se relacionaram a disputas e formas de ocupação do território.",
+                "Que o tratado eliminou todos os conflitos e reconheceu integralmente os territórios de todos os povos indígenas.",
+                "Que rios e montanhas, por si sós, determinaram cada fronteira sem decisões ou interesses políticos."
+              ],
+              "correct": 1,
+              "explanation": "O tratado é um exemplo de negociação política sobre limites entre possessões ibéricas, em um processo ligado à ocupação e às disputas territoriais. Ele não significa que as fronteiras atuais já existissem desde o começo, que todos os conflitos tenham acabado ou que fatores naturais tenham decidido tudo. A ideia-chave é que fronteiras são construções históricas."
+            }
+          ]
+        },
+        {
+          "id": "1-hum-cidadania-democracia-1",
+          "title": "Direitos, participação e decisões em uma comunidade democrática",
+          "objective": "Avaliar propostas coletivas considerando direitos, participação de pessoas afetadas, argumentos e convivência respeitosa.",
+          "lesson": "Cidadania é participação na vida coletiva e exercício de direitos, acompanhados de responsabilidades; não se resume a possuir um documento ou votar. Em uma democracia, decisões coletivas devem seguir regras conhecidas, permitir participação e considerar argumentos, pois a decisão da maioria não torna aceitável violar direitos de pessoas ou grupos. Conviver democraticamente é poder discordar sem violência ou silenciamento, ouvir quem será afetado e buscar soluções justificáveis e inclusivas. Ao discutir um problema da comunidade, distinguir opinião de evidência — informação que pode ser verificada — ajuda a avaliar propostas e rever decisões quando seus efeitos forem injustos.",
+          "example": "Exemplo: duas turmas pedem horários diferentes para usar a quadra compartilhada. Passo 1: identificar quem será afetado e quais horários cada grupo precisa. Passo 2: ouvir as justificativas e comparar informações, como a grade de aulas. Passo 3: propor um rodízio com critérios claros e combinar quando revisar o acordo. Resposta: uma decisão participativa e transparente pode distribuir o uso com mais justiça; apenas escolher a opção mais popular, sem ouvir os afetados, não garante uma convivência democrática.",
+          "questions": [
+            {
+              "id": "1-hum-cidadania-democracia-1-q1",
+              "lessonId": "1-hum-cidadania-democracia-1",
+              "prompt": "Em uma assembleia escolar, a maioria propõe impedir que um grupo de estudantes use a biblioteca por causa de quem eles são. Qual atitude é mais compatível com cidadania e convivência democrática?",
+              "options": [
+                "Aplicar a proposta imediatamente, pois uma votação majoritária torna justa qualquer decisão.",
+                "Manter o acesso igualitário, discutir as necessidades envolvidas e buscar uma regra justificável sem discriminar o grupo.",
+                "Cancelar toda conversa sobre o uso da biblioteca, porque desacordos não cabem em uma democracia.",
+                "Permitir o acesso somente se o grupo afetado convencer individualmente cada integrante da maioria."
+              ],
+              "correct": 1,
+              "explanation": "A participação da maioria é importante, mas não transforma a exclusão de um grupo em uma decisão justa. Uma resposta democrática considera os direitos e as necessidades das pessoas afetadas e procura uma regra justificável e inclusiva. A ideia relevante é que convivência democrática combina participação com respeito aos direitos."
+            },
+            {
+              "id": "1-hum-cidadania-democracia-1-q2",
+              "lessonId": "1-hum-cidadania-democracia-1",
+              "prompt": "Moradores discordam sobre uma proposta de reorganizar vagas de estacionamento e criar uma faixa para bicicletas. Qual procedimento tende a produzir uma decisão mais democrática e bem fundamentada?",
+              "options": [
+                "Deixar a pessoa que propôs a mudança decidir, para evitar que opiniões diferentes atrasem o processo.",
+                "Escolher a proposta mais popular sem apresentar razões, ouvir quem usa a rua ou verificar seus efeitos.",
+                "Ouvir diferentes pessoas afetadas, comparar dados e argumentos e explicar publicamente os critérios da decisão.",
+                "Proibir a manifestação de quem discorda, pois a unidade da comunidade é mais importante que a participação."
+              ],
+              "correct": 2,
+              "explanation": "Uma decisão bem fundamentada amplia a participação, considera quem será afetado e compara evidências e argumentos antes de explicitar seus critérios. Popularidade isolada ou silenciamento não substituem esse processo. A ideia central é exercer cidadania por meio de participação informada e respeito ao debate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "1",
+      "areaId": "nat",
+      "lessons": [
+        {
+          "id": "1-nat-fluxo-energia-1",
+          "title": "Ecossistemas: transferência de energia nas cadeias alimentares",
+          "objective": "Explicar como a energia passa dos produtores aos consumidores e interpretar uma estimativa de transferência entre níveis tróficos.",
+          "lesson": "Em um ecossistema, produtores como plantas e algas captam energia luminosa e a armazenam como energia química na matéria orgânica. Uma cadeia alimentar representa quem serve de alimento a quem, e as setas indicam o sentido da transferência de energia: do organismo consumido para o consumidor. Parte da energia disponível não chega ao nível seguinte, pois nem toda a biomassa é ingerida ou assimilada e os organismos também usam energia em suas atividades, liberando calor. A energia flui pelo ecossistema e se dissipa, enquanto os átomos da matéria podem circular entre os seres vivos e o ambiente.",
+          "example": "Suponha que produtores armazenem 5.000 kJ em sua biomassa e que consumidores primários incorporem 600 kJ dessa energia em sua própria biomassa. Primeiro, divida a energia incorporada pelos consumidores pela energia armazenada pelos produtores: 600 ÷ 5.000 = 0,12. Depois, converta para porcentagem: 0,12 × 100 = 12%. Nesse exemplo, a transferência observada é 12%; esse valor descreve os dados apresentados e não é uma regra fixa para todos os ecossistemas.",
+          "questions": [
+            {
+              "id": "1-nat-fluxo-energia-q1",
+              "lessonId": "1-nat-fluxo-energia-1",
+              "prompt": "Em um campo, plantas são comidas por gafanhotos, que são comidos por sapos. Qual sequência mostra o sentido da transferência de energia desde sua fonte inicial até esses consumidores?",
+              "options": [
+                "Plantas → luz solar → gafanhotos → sapos",
+                "Luz solar → plantas → gafanhotos → sapos",
+                "Sapos → gafanhotos → plantas → luz solar",
+                "Luz solar → gafanhotos → plantas → sapos"
+              ],
+              "correct": 1,
+              "explanation": "A luz solar é captada pelas plantas, que armazenam parte dessa energia como energia química. Quando gafanhotos comem as plantas e sapos comem os gafanhotos, a energia disponível é transferida nessa mesma direção: produtores para consumidores."
+            },
+            {
+              "id": "1-nat-fluxo-energia-q2",
+              "lessonId": "1-nat-fluxo-energia-1",
+              "prompt": "Em uma estimativa de um ecossistema, produtores armazenam 5.000 kJ em sua biomassa e consumidores primários incorporam 600 kJ dessa energia em sua própria biomassa. Qual conclusão é sustentada por esses dados?",
+              "options": [
+                "A transferência observada é de 12%, e esse percentual não precisa ser igual em outros ecossistemas.",
+                "A transferência é de 88%, pois basta subtrair 600 kJ de 5.000 kJ.",
+                "A transferência é necessariamente de 10% em todo ecossistema.",
+                "Os 600 kJ retornam integralmente aos produtores porque a energia é reciclada."
+              ],
+              "correct": 0,
+              "explanation": "A proporção é 600 ÷ 5.000 = 0,12, ou 12%. O cálculo vale para os valores do enunciado; a fração transferida varia conforme os organismos e as condições. Energia não é reciclada como a matéria: parte se dissipa como calor e precisa ser reposta continuamente, sobretudo pela luz solar."
+            }
+          ]
+        },
+        {
+          "id": "1-nat-transformacoes-materia-2",
+          "title": "Propriedades da matéria e distinção entre mudanças físicas e químicas",
+          "objective": "Distinguir transformações físicas de químicas com base na formação ou não de novas substâncias e aplicar a conservação da massa a um sistema fechado.",
+          "lesson": "Matéria é tudo aquilo que tem massa e ocupa espaço, e suas propriedades podem ser observadas ou medidas, como massa, volume e estado físico. Em uma transformação física, a substância continua sendo a mesma, embora sua forma ou seu estado possa mudar, como ocorre quando o gelo derrete. Em uma transformação química, formam-se substâncias com composição e propriedades diferentes das iniciais, como na ferrugem; indícios como bolhas ou mudança de cor devem ser interpretados junto ao contexto. Em um sistema fechado, que não troca matéria com o ambiente, a massa total se conserva durante uma transformação, mesmo que gases sejam produzidos.",
+          "example": "Imagine um recipiente fechado que contém 120 g de solução ácida e 8 g de bicarbonato antes de reagirem. A massa inicial do conteúdo é 120 g + 8 g = 128 g. A reação produz bolhas, mas o gás permanece dentro do recipiente, que não perde matéria. Portanto, a massa final do conteúdo continua sendo 128 g; a formação de novas substâncias caracteriza uma transformação química.",
+          "questions": [
+            {
+              "id": "1-nat-transformacoes-materia-q1",
+              "lessonId": "1-nat-transformacoes-materia-2",
+              "prompt": "Qual situação é um exemplo de transformação química, e não apenas de mudança física?",
+              "options": [
+                "A água líquida passa para o estado de vapor ao ferver.",
+                "Um fio de cobre é dobrado, mudando de forma.",
+                "Um prego de ferro forma ferrugem ao ficar exposto ao ar úmido.",
+                "Um cubo de gelo derrete e vira água líquida."
+              ],
+              "correct": 2,
+              "explanation": "Na formação de ferrugem, o ferro reage com componentes do ambiente e surgem substâncias diferentes das iniciais, o que caracteriza transformação química. Ferver, dobrar o fio e derreter o gelo alteram estado ou forma sem, nesses casos, mudar a identidade da substância."
+            },
+            {
+              "id": "1-nat-transformacoes-materia-q2",
+              "lessonId": "1-nat-transformacoes-materia-2",
+              "prompt": "Um recipiente fechado contém 120 g de solução e 8 g de bicarbonato antes de uma reação que produz gás. Considerando apenas o conteúdo do recipiente, incluindo o gás que se forma, qual deve ser sua massa final se não houver perda de matéria?",
+              "options": [
+                "8 g, porque somente o bicarbonato permanece após a reação.",
+                "120 g, porque a massa da solução não muda.",
+                "128 g, porque a massa total se conserva no sistema fechado.",
+                "Mais de 128 g, porque a formação de bolhas acrescenta massa ao conjunto."
+              ],
+              "correct": 2,
+              "explanation": "A massa inicial do conteúdo é 120 g + 8 g = 128 g. Como o gás produzido permanece dentro do recipiente e não há perda de matéria, a massa total do conteúdo continua sendo 128 g."
+            }
+          ]
+        },
+        {
+          "id": "1-nat-movimento-graficos-3",
+          "title": "Movimento: velocidade média e leitura de gráficos posição-tempo",
+          "objective": "Calcular a velocidade escalar média em situações cotidianas e interpretar trechos de um gráfico posição-tempo para reconhecer repouso e movimento.",
+          "lesson": "A velocidade escalar média é a distância total percorrida dividida pelo tempo decorrido: vₘ = d_total ÷ Δt. Se a distância está em quilômetros e o tempo em horas, o resultado fica em km/h; se estão em metros e segundos, fica em m/s. Em um gráfico posição-tempo, a inclinação de um trecho corresponde à variação da posição dividida pela variação do tempo, e um trecho horizontal indica posição constante, isto é, repouso naquele intervalo. Quando há mudança de sentido, a distância total percorrida não é igual ao deslocamento, por isso é importante identificar o que a pergunta solicita.",
+          "example": "Um ciclista passa da posição 2 km para a posição 11 km em 1,5 h, sem inverter o sentido. Primeiro, calcule a distância percorrida: 11 − 2 = 9 km. Em seguida, use a fórmula da velocidade escalar média: 9 km ÷ 1,5 h = 6 km/h. Portanto, a velocidade escalar média nesse intervalo é 6 km/h.",
+          "questions": [
+            {
+              "id": "1-nat-movimento-graficos-q1",
+              "lessonId": "1-nat-movimento-graficos-3",
+              "prompt": "Em um gráfico posição-tempo, um objeto está na posição 6 m no instante 2 s e continua na posição 6 m no instante 5 s, sem mudança entre esses instantes. O que se conclui sobre o movimento nesse intervalo?",
+              "options": [
+                "O objeto permanece em repouso na posição 6 m.",
+                "O objeto avança 3 m a cada segundo.",
+                "O objeto retorna à posição 0 m em 3 s.",
+                "O objeto percorre 6 m a cada segundo."
+              ],
+              "correct": 0,
+              "explanation": "A posição não varia entre 2 s e 5 s, então o gráfico posição-tempo é horizontal nesse intervalo. Como o objeto não muda de posição, está em repouso durante esses três segundos."
+            },
+            {
+              "id": "1-nat-movimento-graficos-q2",
+              "lessonId": "1-nat-movimento-graficos-3",
+              "prompt": "Um ciclista percorre 12 km ao ir do marco 3 km ao marco 15 km e, em seguida, volta até o marco 9 km, percorrendo mais 6 km. A viagem toda dura 3 h. Qual é sua velocidade escalar média?",
+              "options": [
+                "2 km/h",
+                "4 km/h",
+                "6 km/h",
+                "18 km/h"
+              ],
+              "correct": 2,
+              "explanation": "A distância total é 12 km + 6 km = 18 km. Dividindo pela duração total, 18 km ÷ 3 h = 6 km/h. A velocidade escalar média usa a distância percorrida, incluindo o trecho de volta, e não apenas o deslocamento entre a posição inicial e a final."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "1",
+      "areaId": "red",
+      "lessons": [
+        {
+          "id": "1-red-tema-1",
+          "title": "Do tema amplo à tese sobre o descarte de eletrônicos",
+          "objective": "Distinguir tema, recorte e tese e formular uma posição delimitada com uma razão pertinente.",
+          "lesson": "O tema é o assunto amplo proposto para a redação; o recorte delimita qual aspecto, grupo ou contexto desse assunto será discutido. A tese é a posição que o autor defende sobre o recorte, e não apenas uma pergunta ou uma frase que nomeia o assunto. Para planejar, use a sequência tema → recorte → posição + razão: cada passo torna mais claro o que o texto vai argumentar. Uma tese útil é discutível e específica o bastante para ser sustentada nos parágrafos seguintes.",
+          "example": "Proposta: discutir como reduzir o descarte inadequado de pequenos eletrônicos no entorno da escola. Passo 1 — tema amplo: descarte de resíduos. Passo 2 — recorte: pilhas e pequenos eletrônicos descartados no entorno da escola. Passo 3 — posição + razão: “A escola deve criar um ponto de coleta para pilhas e pequenos eletrônicos e divulgar como usá-lo, pois um local definido facilita a entrega correta.” Resposta: essa última frase é a tese, porque apresenta uma proposta e uma razão ligada ao recorte.",
+          "questions": [
+            {
+              "id": "q-1-red-tema-1-1",
+              "lessonId": "1-red-tema-1",
+              "prompt": "A proposta de redação pede discutir medidas para reduzir o descarte inadequado de pequenos eletrônicos no entorno da escola. Qual opção apresenta uma tese específica, e não apenas o tema, um recorte ou uma pergunta?",
+              "options": [
+                "O descarte de pequenos eletrônicos.",
+                "O descarte inadequado de pequenos eletrônicos no entorno da escola.",
+                "A escola deve instalar um ponto de coleta e divulgar orientações, pois isso oferece um destino definido e informa a comunidade.",
+                "Quais medidas podem reduzir o descarte inadequado de pequenos eletrônicos perto da escola?"
+              ],
+              "correct": 2,
+              "explanation": "A opção 3 é a tese: delimita uma ação, assume uma posição e apresenta uma razão. A opção 1 apenas nomeia o tema, a 2 delimita o recorte e a 4 formula uma pergunta, sem defender uma resposta."
+            },
+            {
+              "id": "q-1-red-tema-1-2",
+              "lessonId": "1-red-tema-1",
+              "prompt": "Em uma atividade sobre o uso de celulares durante as atividades de leitura, um estudante escreveu: “O celular é um assunto importante”. Qual revisão transforma essa frase em uma tese delimitada e apoiada por uma razão?",
+              "options": [
+                "Os celulares e a leitura são assuntos presentes na escola.",
+                "A escola deveria reservar momentos de leitura sem notificações, pois a interrupção frequente pode dificultar a concentração na atividade.",
+                "Como os celulares interferem nas atividades de leitura?",
+                "Celular, leitura, escola e concentração."
+              ],
+              "correct": 1,
+              "explanation": "A opção 2 toma posição sobre uma situação delimitada e justifica a proposta com uma razão pertinente; por isso, funciona como tese. As demais opções apenas apresentam um tema, fazem uma pergunta ou listam palavras sem defender uma ideia."
+            }
+          ]
+        },
+        {
+          "id": "1-red-evidencia-2",
+          "title": "Construindo um parágrafo com afirmação, evidência e análise",
+          "objective": "Organizar um parágrafo argumentativo em que uma evidência pertinente sustente uma afirmação e seja interpretada sem exageros.",
+          "lesson": "Um parágrafo argumentativo pode ser planejado como afirmação → evidência → análise: primeiro se declara a ideia, depois se apresenta um dado, exemplo ou registro verificável que a apoie, e por fim se explica o que essa evidência permite concluir. Evidência não é uma opinião repetida nem um dado inventado; ela precisa ter relação direta com a afirmação. A análise explicita essa relação para que o leitor não precise adivinhá-la. A conclusão também deve respeitar o alcance da evidência: um registro de uma turma, por exemplo, não prova automaticamente o que ocorre em todas as escolas.",
+          "example": "Situação hipotética para exercício: em uma consulta feita para uma atividade, 9 de 15 estudantes disseram não saber onde entregar pilhas usadas. Passo 1 — afirmação: a escola deve informar com clareza onde receberá pilhas usadas. Passo 2 — evidência: na consulta da atividade, 9 dos 15 respondentes disseram desconhecer o local de entrega. Passo 3 — análise: esse resultado sugere que a informação não está chegando a parte dos estudantes consultados; divulgá-la junto ao ponto de coleta pode facilitar a entrega. Resposta em parágrafo: “A escola deve informar com clareza onde receberá pilhas usadas. Na consulta feita para esta atividade, 9 dos 15 estudantes respondentes disseram não saber onde entregá-las. Esse resultado sugere que a informação não está chegando a parte dos consultados; por isso, divulgá-la junto ao ponto de coleta pode facilitar a entrega.”",
+          "questions": [
+            {
+              "id": "q-1-red-evidencia-2-1",
+              "lessonId": "1-red-evidencia-2",
+              "prompt": "Leia o trecho: “A biblioteca deveria reservar um espaço de leitura silenciosa. Em uma consulta feita para esta atividade, 11 de 16 respondentes disseram que o barulho atrapalha sua leitura. Esse registro sugere que há estudantes que podem se beneficiar de um espaço mais silencioso.” Qual frase funciona como evidência?",
+              "options": [
+                "A biblioteca deveria reservar um espaço de leitura silenciosa.",
+                "Em uma consulta feita para esta atividade, 11 de 16 respondentes disseram que o barulho atrapalha sua leitura.",
+                "Esse registro sugere que há estudantes que podem se beneficiar de um espaço mais silencioso.",
+                "A leitura é uma atividade que pode ocorrer em muitos lugares."
+              ],
+              "correct": 1,
+              "explanation": "A opção 2 apresenta um registro concreto da consulta e, portanto, é a evidência. A opção 1 é a afirmação defendida, enquanto a 3 interpreta o que o registro sugere; a 4 não foi apresentada como dado que sustente a afirmação."
+            },
+            {
+              "id": "q-1-red-evidencia-2-2",
+              "lessonId": "1-red-evidencia-2",
+              "prompt": "Para uma atividade, considere este registro hipotético de manutenção: durante um mês, foram encontradas pilhas usadas em sete salas da escola. A afirmação do parágrafo é que a escola deve instalar um ponto de coleta acessível. Qual frase analisa o registro de modo pertinente, sem afirmar mais do que ele prova?",
+              "options": [
+                "Esse registro comprova que todas as escolas precisam instalar pontos de coleta.",
+                "O registro mostra que pilhas apareceram em várias salas desta escola; um ponto acessível pode oferecer um local definido para reuni-las.",
+                "Como foram encontradas pilhas, nenhum estudante conhece formas de descarte.",
+                "As pilhas são objetos pequenos, e a escola tem salas diferentes."
+              ],
+              "correct": 1,
+              "explanation": "A opção 2 conecta o registro à proposta e limita a conclusão à escola observada. A opção 1 generaliza para todas as escolas, a 3 atribui conhecimento aos estudantes sem evidência e a 4 apenas repete informações sem explicar como apoiam a afirmação."
+            }
+          ]
+        },
+        {
+          "id": "1-red-coesao-3",
+          "title": "Revisando conexões e referentes em um texto argumentativo",
+          "objective": "Revisar um trecho argumentativo para escolher conectivos coerentes com a relação entre ideias e deixar referências pronominais claras.",
+          "lesson": "Coesão é a ligação clara entre palavras, frases e ideias, de modo que o leitor acompanhe o argumento. Conectivos devem expressar a relação pretendida: “além disso” acrescenta uma ideia, “por isso” indica consequência e “no entanto” sinaliza contraste. Ao revisar pronomes como “isso” ou “ela”, confira se o leitor consegue identificar sem dúvida a que palavra ou ideia eles se referem. Uma boa revisão também verifica se cada frase contribui para a tese, em vez de apenas acrescentar informação desconectada.",
+          "example": "Rascunho: “A escola instalará uma caixa de coleta de pilhas perto da secretaria. Ela poderá ser usada no recreio. A equipe também publicará o horário de coleta. Isso ajudará os estudantes.” Passo 1 — verificar referentes: “Ela” pode ser substituído por “A caixa” para nomear diretamente o que ficará disponível; “Isso” resume várias ações e pode ficar mais preciso. Passo 2 — explicitar a relação: a divulgação do horário acrescenta uma medida, então “Além disso” é adequado. Passo 3 — reescrever: “A escola instalará uma caixa de coleta de pilhas perto da secretaria, disponível durante o recreio. Além disso, a equipe publicará o horário de coleta nos cartazes. Com essas duas medidas, os estudantes saberão onde e quando entregar as pilhas.” Resposta: a revisão torna a referência e a contribuição das medidas mais claras.",
+          "questions": [
+            {
+              "id": "q-1-red-coesao-3-1",
+              "lessonId": "1-red-coesao-3",
+              "prompt": "Um parágrafo defende que a escola crie um ponto de coleta de pilhas. Depois de explicar essa proposta, o autor quer acrescentar outra medida: a direção divulgará o local de entrega nos cartazes. Qual conectivo introduz essa segunda medida como acréscimo, sem indicar contraste ou consequência?",
+              "options": [
+                "Além disso,",
+                "No entanto,",
+                "Por isso,",
+                "Em vez disso,"
+              ],
+              "correct": 0,
+              "explanation": "“Além disso” indica acréscimo e combina com a apresentação de uma segunda medida. “No entanto” introduz contraste, “por isso” apresenta consequência e “em vez disso” sugere substituição, relações que não correspondem ao sentido descrito."
+            },
+            {
+              "id": "q-1-red-coesao-3-2",
+              "lessonId": "1-red-coesao-3",
+              "prompt": "Leia: “A direção comunicará à comunidade o horário e o local do ponto de coleta. Ela também explicará quais itens poderão ser entregues.” Para deixar explícito quem explicará os itens e manter o sentido original, qual revisão é mais clara?",
+              "options": [
+                "Além de divulgar o horário e o local do ponto de coleta, a direção explicará quais itens poderão ser entregues.",
+                "Além de divulgar o horário e o local do ponto de coleta, a comunidade explicará quais itens poderão ser entregues.",
+                "Além de divulgar o horário e o local do ponto de coleta, esse horário explicará quais itens poderão ser entregues.",
+                "No entanto, a direção divulgará o horário e o local do ponto de coleta, que explicará quais itens poderão ser entregues."
+              ],
+              "correct": 0,
+              "explanation": "A opção 1 nomeia novamente a direção como responsável por explicar os itens e preserva as duas ações do trecho. A opção 2 muda quem realiza a ação, a 3 atribui a explicação ao horário e a 4 cria uma relação de contraste e uma referência ambígua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "areaId": "mat",
+      "lessons": [
+        {
+          "id": "2-mat-funcao-quadratica-1",
+          "title": "Função quadrática: fatoração e interpretação das raízes",
+          "objective": "Identificar as raízes de uma função quadrática fatorável e relacioná-las aos pontos em que o gráfico cruza ou toca o eixo x.",
+          "lesson": "Uma função quadrática tem a forma f(x) = ax² + bx + c, com a diferente de zero, e seu gráfico é uma parábola. As raízes são os valores de x para os quais f(x) = 0; no gráfico, elas correspondem às interseções da parábola com o eixo x. Quando a expressão pode ser fatorada como f(x) = a(x − r₁)(x − r₂), basta igualar cada fator a zero para encontrar as raízes r₁ e r₂. O sinal de a também informa a concavidade: se a > 0, a parábola se abre para cima; se a < 0, para baixo.",
+          "example": "Encontre as raízes de f(x) = x² − 5x + 6. Primeiro, fatoramos: x² − 5x + 6 = (x − 2)(x − 3), pois 2 + 3 = 5 e 2 · 3 = 6. Em seguida, fazemos (x − 2)(x − 3) = 0, então x − 2 = 0 ou x − 3 = 0. Portanto, as raízes são x = 2 e x = 3, os pontos em que o gráfico encontra o eixo x.",
+          "questions": [
+            {
+              "id": "2-mat-funcao-raizes-q1",
+              "lessonId": "2-mat-funcao-quadratica-1",
+              "prompt": "Uma função é dada por f(x) = x² − 7x + 12. Quais valores de x são suas raízes?",
+              "options": [
+                "x = 2 e x = 6",
+                "x = 3 e x = 4",
+                "x = −3 e x = −4",
+                "x = 1 e x = 12"
+              ],
+              "correct": 1,
+              "explanation": "Fatorando, temos x² − 7x + 12 = (x − 3)(x − 4). Para que f(x) seja zero, um dos fatores deve ser zero: x = 3 ou x = 4. As raízes são os pontos em que a função vale zero."
+            },
+            {
+              "id": "2-mat-funcao-raizes-q2",
+              "lessonId": "2-mat-funcao-quadratica-1",
+              "prompt": "A altura de uma bola, em metros, t segundos após o lançamento é modelada por h(t) = −2t² + 12t, para t ≥ 0. Além do instante inicial t = 0, em que instante a bola volta ao chão?",
+              "options": [
+                "t = 3 segundos",
+                "t = 6 segundos",
+                "t = 12 segundos",
+                "A bola não volta ao chão, pois a função não tem raiz positiva"
+              ],
+              "correct": 1,
+              "explanation": "A bola está no chão quando h(t) = 0. Fatorando, −2t² + 12t = −2t(t − 6), cujas raízes são t = 0 e t = 6. Como t = 0 representa o lançamento, ela volta ao chão após 6 segundos."
+            }
+          ]
+        },
+        {
+          "id": "2-mat-triangulo-retangulo-2",
+          "title": "Triângulos semelhantes e razões trigonométricas",
+          "objective": "Usar a proporcionalidade entre triângulos retângulos semelhantes e escolher seno, cosseno ou tangente para relacionar lados e ângulos.",
+          "lesson": "Dois triângulos são semelhantes quando têm ângulos correspondentes iguais; nesse caso, os lados correspondentes estão na mesma proporção. Em um triângulo retângulo, a hipotenusa fica oposta ao ângulo de 90°, e os outros lados são catetos. Para um ângulo agudo θ, sen(θ) = cateto oposto/hipotenusa, cos(θ) = cateto adjacente/hipotenusa e tg(θ) = cateto oposto/cateto adjacente. Essas razões dependem do ângulo, não do tamanho do triângulo, o que permite usar medidas conhecidas para encontrar outras.",
+          "example": "Considere um triângulo retângulo com catetos 3 cm e 4 cm e hipotenusa 5 cm; escolha θ como o ângulo oposto ao cateto de 3 cm. Em relação a θ, o cateto oposto mede 3 cm, o adjacente mede 4 cm e a hipotenusa mede 5 cm. Assim, sen(θ) = 3/5, cos(θ) = 4/5 e tg(θ) = 3/4. Se um triângulo semelhante tiver lados duas vezes maiores, essas três razões continuarão iguais.",
+          "questions": [
+            {
+              "id": "2-mat-triangulo-semelhanca-q1",
+              "lessonId": "2-mat-triangulo-retangulo-2",
+              "prompt": "Um triângulo retângulo tem lados 3 cm, 4 cm e 5 cm. Um triângulo semelhante a ele tem hipotenusa de 15 cm. Quanto mede, nesse triângulo maior, o lado correspondente ao lado de 3 cm?",
+              "options": [
+                "6 cm",
+                "9 cm",
+                "12 cm",
+                "15 cm"
+              ],
+              "correct": 1,
+              "explanation": "A razão entre as hipotenusas é 15/5 = 3, então todos os lados correspondentes são multiplicados por 3. O lado correspondente a 3 cm mede 3 · 3 = 9 cm. Essa é a proporcionalidade dos lados em triângulos semelhantes."
+            },
+            {
+              "id": "2-mat-triangulo-trigonometria-q2",
+              "lessonId": "2-mat-triangulo-retangulo-2",
+              "prompt": "Em um triângulo retângulo, em relação ao ângulo agudo θ, o cateto oposto mede 5 cm e o cateto adjacente mede 12 cm. Qual é cos(θ)?",
+              "options": [
+                "5/13",
+                "12/13",
+                "5/12",
+                "12/5"
+              ],
+              "correct": 1,
+              "explanation": "O cosseno é a razão entre o cateto adjacente e a hipotenusa. Pelo teorema de Pitágoras, a hipotenusa mede √(5² + 12²) = √169 = 13 cm. Portanto, cos(θ) = 12/13."
+            }
+          ]
+        },
+        {
+          "id": "2-mat-probabilidade-contagem-3",
+          "title": "Princípio multiplicativo e probabilidade de escolhas",
+          "objective": "Contar possibilidades em escolhas sucessivas usando o princípio multiplicativo e calcular probabilidades em espaços amostrais equiprováveis.",
+          "lesson": "O princípio multiplicativo diz que, se uma escolha pode ser feita de m maneiras e uma escolha seguinte de n maneiras, há m · n combinações possíveis, desde que cada possibilidade da primeira etapa possa ser combinada com cada uma da segunda. Para calcular uma probabilidade em um conjunto de resultados igualmente prováveis, dividimos o número de resultados favoráveis pelo total de resultados possíveis. Em situações com escolhas independentes e equiprováveis, a contagem pode ser organizada por etapas e a probabilidade de uma condição em cada etapa pode ser multiplicada. É importante verificar se os resultados são de fato igualmente prováveis antes de usar a razão favoráveis/total.",
+          "example": "Uma cantina oferece 3 sucos, 2 sanduíches (um deles vegetariano) e 2 sobremesas; cada lanche completo combina uma opção de cada tipo. Pelo princípio multiplicativo, há 3 · 2 · 2 = 12 lanches possíveis. Se um lanche completo for escolhido ao acaso e todas as combinações tiverem a mesma chance, os que incluem o sanduíche vegetariano são 3 · 1 · 2 = 6. Logo, a probabilidade é 6/12 = 1/2.",
+          "questions": [
+            {
+              "id": "2-mat-contagem-combinacoes-q1",
+              "lessonId": "2-mat-probabilidade-contagem-3",
+              "prompt": "Para montar um uniforme, uma equipe pode escolher entre 4 camisetas, 3 calças e 2 pares de tênis. Escolhendo uma peça de cada tipo, quantos uniformes diferentes são possíveis?",
+              "options": [
+                "9",
+                "12",
+                "24",
+                "36"
+              ],
+              "correct": 2,
+              "explanation": "Cada uma das 4 camisetas pode ser combinada com cada uma das 3 calças e cada um dos 2 pares de tênis. Pelo princípio multiplicativo, o total é 4 · 3 · 2 = 24 uniformes."
+            },
+            {
+              "id": "2-mat-probabilidade-codigo-q2",
+              "lessonId": "2-mat-probabilidade-contagem-3",
+              "prompt": "Um código é formado escolhendo uma letra entre A, B e C e, em seguida, um algarismo entre 0, 1, 2, 3 e 4. Todas as combinações são igualmente prováveis. Qual é a probabilidade de o código ter uma letra diferente de C e um algarismo par?",
+              "options": [
+                "1/5",
+                "2/5",
+                "3/5",
+                "2/3"
+              ],
+              "correct": 1,
+              "explanation": "Há 3 · 5 = 15 códigos possíveis. Para a condição pedida, há 2 letras possíveis (A ou B) e 3 algarismos pares (0, 2 ou 4), portanto 2 · 3 = 6 códigos favoráveis. A probabilidade é 6/15 = 2/5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "areaId": "ling",
+      "lessons": [
+        {
+          "id": "2-ling-escolas-literarias-1",
+          "title": "Romantismo e Realismo: escolhas literárias em seus contextos",
+          "objective": "Relacionar traços de Romantismo e Realismo às visões de mundo que um texto valoriza ou questiona, sem tratar uma escola literária como uma regra rígida.",
+          "lesson": "Uma escola literária é um conjunto de tendências de época — temas, formas e modos de representar a realidade —, não uma etiqueta que explica sozinha cada texto. Em linhas gerais, o Romantismo valorizou a subjetividade, os sentimentos e a idealização; no Brasil, também participou da construção de imagens de identidade nacional. O Realismo voltou o olhar para conflitos sociais e contradições das personagens, muitas vezes questionando idealizações e aparências. Para interpretar um trecho, observe quem fala, o que é idealizado ou criticado e como essas escolhas dialogam com o contexto apresentado.",
+          "example": "Exemplo trabalhado: considere o trecho inventado: “Mesmo sem recursos, Clara venceria qualquer obstáculo, pois o amor e a coragem bastavam para transformar seu destino.” Passo 1: note que a personagem é apresentada de modo idealizado e que sentimentos e virtudes conduzem a narrativa. Passo 2: compare esses traços às tendências descritas: eles se aproximam do Romantismo. Resposta: o trecho tem traços românticos; isso é uma aproximação interpretativa, não prova de que todo o texto pertença exclusivamente a essa escola.",
+          "questions": [
+            {
+              "id": "2-ling-escolas-literarias-1-q1",
+              "lessonId": "2-ling-escolas-literarias-1",
+              "prompt": "Leia a situação: um conto apresenta um narrador que revela o interesse financeiro escondido sob os gestos generosos de uma personagem e mostra como a posição social influencia suas escolhas. Qual interpretação melhor relaciona o procedimento a uma tendência literária?",
+              "options": [
+                "A exposição das contradições e dos interesses aproxima o conto de uma tendência realista, que questiona aparências idealizadas.",
+                "A presença de uma personagem generosa torna o conto necessariamente romântico, mesmo que o narrador revele interesses ocultos.",
+                "A crítica às diferenças sociais é um recurso exclusivo de textos sem contexto histórico ou social.",
+                "O conto não pode ser relacionado a uma escola literária porque apresenta uma personagem individual."
+              ],
+              "correct": 0,
+              "explanation": "A resposta correta é a primeira: revelar contradições por trás das aparências é compatível com uma tendência realista. O ponto decisivo é a maneira crítica de representar a personagem, não apenas a presença de generosidade nem a existência de um indivíduo."
+            },
+            {
+              "id": "2-ling-escolas-literarias-1-q2",
+              "lessonId": "2-ling-escolas-literarias-1",
+              "prompt": "Em um texto, a paisagem brasileira é descrita como símbolo de uma identidade coletiva idealizada, e o narrador destaca emoção e pertencimento. Qual conclusão é mais cuidadosa?",
+              "options": [
+                "O texto pode dialogar com tendências românticas de idealização e construção de identidade, mas é preciso considerar o conjunto e o contexto antes de classificá-lo.",
+                "O texto é certamente realista, pois toda descrição de paisagem denuncia contradições sociais.",
+                "A referência ao Brasil basta para provar que se trata de um documento histórico, não de literatura.",
+                "O destaque dado à emoção impede que o texto tenha qualquer relação com seu contexto de produção."
+              ],
+              "correct": 0,
+              "explanation": "A primeira opção é a mais adequada: idealização, emoção e identidade coletiva podem aproximar o texto de tendências românticas. A classificação deve ser sustentada por mais elementos do texto e por seu contexto, e não por uma única pista isolada."
+            }
+          ]
+        },
+        {
+          "id": "2-ling-relacoes-entre-oracoes-2",
+          "title": "Conectivos e sentido: causa, oposição e concessão",
+          "objective": "Identificar a relação de sentido entre orações e explicar como o conectivo orienta a leitura de um período.",
+          "lesson": "Oração é uma unidade organizada em torno de um verbo ou locução verbal; um período pode reunir uma ou mais orações. Conectivos como “porque”, “mas” e “embora” indicam relações diferentes: causa, oposição e concessão, respectivamente. Na concessão, a oração introduz um obstáculo ou ressalva, mas a ideia principal continua válida (“Embora chovesse, a equipe saiu”). Para analisar um período, localize os verbos, separe as orações e pergunte que relação o conectivo estabelece entre elas.",
+          "example": "Exemplo trabalhado: “A turma manteve a proposta, embora parte dos dados ainda precisasse de revisão.” Passo 1: localize os verbos “manteve” e “precisasse”; há duas orações. Passo 2: observe “embora”, que introduz uma ressalva, e não a causa da decisão. Passo 3: identifique a ideia principal: a turma manteve a proposta apesar da revisão pendente. Resposta: a oração iniciada por “embora” expressa concessão.",
+          "questions": [
+            {
+              "id": "2-ling-relacoes-entre-oracoes-2-q1",
+              "lessonId": "2-ling-relacoes-entre-oracoes-2",
+              "prompt": "No período “O grupo refez o gráfico porque percebeu um erro nos dados”, que relação a oração introduzida por “porque” estabelece com a ação de refazer o gráfico?",
+              "options": [
+                "Indica a causa que motivou o grupo a refazer o gráfico.",
+                "Apresenta uma consequência que ocorreu depois de refazer o gráfico.",
+                "Contrapõe duas ideias de igual peso, sem explicar a decisão.",
+                "Concede um obstáculo que não alterou a decisão do grupo."
+              ],
+              "correct": 0,
+              "explanation": "A primeira opção está correta: “porque percebeu um erro nos dados” explica por que o grupo refez o gráfico, portanto estabelece uma relação causal. O conectivo orienta a leitura da segunda oração como motivo da ação."
+            },
+            {
+              "id": "2-ling-relacoes-entre-oracoes-2-q2",
+              "lessonId": "2-ling-relacoes-entre-oracoes-2",
+              "prompt": "Uma estudante escreveu: “Embora o texto seja curto, apresenta uma argumentação consistente.” Qual leitura respeita a relação entre as orações?",
+              "options": [
+                "A extensão curta é apresentada como ressalva, mas não impede que a argumentação seja consistente.",
+                "A extensão curta é a causa necessária da consistência da argumentação.",
+                "A segunda oração contradiz a primeira e afirma que o texto é longo.",
+                "A consistência da argumentação é apresentada como resultado de o texto ser curto."
+              ],
+              "correct": 0,
+              "explanation": "A primeira opção está correta. “Embora” introduz uma concessão: a brevidade poderia ser vista como uma ressalva, mas a afirmação principal — a consistência argumentativa — permanece. Não há relação de causa ou consequência."
+            }
+          ]
+        },
+        {
+          "id": "2-ling-argumento-intertexto-3",
+          "title": "Tese, contra-argumento e intertextualidade em um parágrafo",
+          "objective": "Construir e analisar um parágrafo argumentativo que combine tese, evidência, consideração de uma objeção e referência intertextual pertinente.",
+          "lesson": "Tese é a posição que o texto procura defender; evidência é um dado, exemplo ou observação que dá sustentação a essa posição. Um contra-argumento apresenta uma objeção relevante, e a resposta a ele explica por que a tese ainda se sustenta ou como pode ser ajustada. Intertextualidade é a relação reconhecível com outro texto ou obra, usada com uma função — por exemplo, ampliar uma ideia —, e não apenas uma menção decorativa. Ao revisar um parágrafo, verifique se cada elemento contribui para o raciocínio e se as ligações entre as frases tornam claro o percurso da tese à conclusão.",
+          "example": "Exemplo trabalhado: “A biblioteca da escola deveria abrir em dois dias após as aulas. Em uma consulta da turma, 18 de 24 estudantes disseram que só conseguem estudar depois do turno. É verdade que ampliar o horário exige organizar a equipe; por isso, um teste de um mês em dois dias permitiria avaliar a procura antes de manter a mudança. Como na fábula mencionada em aula, em que a tartaruga avança com constância, o acesso regular à leitura também pode favorecer o estudo.” Passo 1: a primeira frase apresenta a tese. Passo 2: a consulta oferece evidência. Passo 3: a necessidade de organizar a equipe é o contra-argumento, respondido pela proposta de um teste. Passo 4: a alusão à fábula é intertextualidade e reforça a ideia de constância. Resposta: o parágrafo reúne os quatro elementos com funções identificáveis.",
+          "questions": [
+            {
+              "id": "2-ling-argumento-intertexto-3-q1",
+              "lessonId": "2-ling-argumento-intertexto-3",
+              "prompt": "Um estudante escreve: “A escola deveria reservar um período semanal para leitura. Isso seria bom para todos.” Qual revisão acrescenta uma evidência específica e mantém uma ligação clara com a tese?",
+              "options": [
+                "A escola deveria reservar um período semanal para leitura; em uma consulta da turma, 16 de 20 estudantes disseram que raramente conseguem ler durante a semana, o que indica uma necessidade concreta.",
+                "A escola deveria reservar um período semanal para leitura, embora livros tenham muitas páginas e existam diferentes gêneros.",
+                "A escola deveria reservar um período semanal para leitura. Isso seria bom para todos. A leitura é leitura e todos leem.",
+                "A escola deveria reservar um período semanal para leitura, porque a proposta é excelente e, por isso, não precisa de justificativa."
+              ],
+              "correct": 0,
+              "explanation": "A primeira revisão acrescenta um dado verificável dentro da situação proposta e explica sua relevância para a tese. Evidência não é apenas repetir a opinião: ela oferece sustentação concreta ao argumento."
+            },
+            {
+              "id": "2-ling-argumento-intertexto-3-q2",
+              "lessonId": "2-ling-argumento-intertexto-3",
+              "prompt": "Em um parágrafo sobre persistência nos estudos, uma aluna escreve: “Na fábula citada em nossa aula, a tartaruga segue avançando apesar do ritmo lento; essa imagem ajuda a defender que uma rotina constante de estudo pode ser mais útil do que depender de uma única sessão longa.” Qual é a função principal da referência à fábula nesse trecho?",
+              "options": [
+                "Estabelecer uma relação intertextual que ajuda a ilustrar e reforçar a tese sobre constância.",
+                "Substituir toda evidência possível, pois qualquer referência literária prova que a tese é verdadeira.",
+                "Apresentar um contra-argumento, porque a tartaruga discorda da opinião da autora.",
+                "Mudar o assunto do parágrafo para narrar integralmente uma fábula."
+              ],
+              "correct": 0,
+              "explanation": "A primeira opção está correta: a aluna retoma uma obra conhecida no contexto da aula e conecta sua imagem à tese, criando intertextualidade com função argumentativa. A referência ilustra a ideia, mas não substitui, por si só, dados ou outras evidências."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "areaId": "hum",
+      "lessons": [
+        {
+          "id": "2-hum-industria-trabalho-1",
+          "title": "Industrialização, produção em série e relações de trabalho",
+          "objective": "Identificar como a industrialização reorganiza a produção e distinguir aumento de produtividade de melhoria nas condições de trabalho.",
+          "lesson": "Industrialização é a transformação da produção por meio de máquinas, novas fontes de energia e formas de organizar o trabalho; não significa que toda atividade econômica passe a ocorrer em fábricas. No taylorismo, tarefas são divididas e cronometradas para controlar cada etapa, enquanto o fordismo associa a padronização dos produtos à linha de montagem e à produção em massa. Essas formas podem elevar a produtividade — quantidade produzida por trabalhador ou por período —, mas isso, por si só, não garante salários maiores, segurança ou direitos. Para analisar uma relação de trabalho, é preciso observar quem controla o processo, como o trabalho é remunerado e em que condições é realizado; no Brasil, o emprego industrial também convive com serviços e ocupações informais.",
+          "example": "Uma fábrica instala uma esteira: cada pessoa passa a executar uma etapa repetida, e a quantidade de peças produzidas por hora aumenta, mas salários e equipamentos de segurança permanecem iguais. Passo 1: a esteira e a repetição indicam produção em série, associada ao fordismo. Passo 2: o aumento de peças por hora mostra maior produtividade. Passo 3: como remuneração e segurança não melhoraram, não se pode concluir que as condições de trabalho também melhoraram. Resposta: houve aumento de produtividade com reorganização fordista, sem evidência de melhora nas condições laborais.",
+          "questions": [
+            {
+              "id": "2-hum-industria-trabalho-q1",
+              "lessonId": "2-hum-industria-trabalho-1",
+              "prompt": "Uma indústria padroniza seus produtos e instala uma linha de montagem em que cada trabalhador executa repetidamente uma etapa. Qual conceito descreve melhor essa organização da produção?",
+              "options": [
+                "Trabalho artesanal, pois cada trabalhador controla a produção de uma peça completa.",
+                "Fordismo, pois a linha de montagem e a padronização favorecem a produção em massa.",
+                "Economia de subsistência, pois a produção se destina apenas ao consumo familiar.",
+                "Terceirização, pois o caso informa que a empresa contratou outra empresa para produzir."
+              ],
+              "correct": 1,
+              "explanation": "A combinação de produtos padronizados e linha de montagem é característica do fordismo, que organiza etapas repetidas para produzir em massa. O enunciado não descreve produção artesanal, subsistência nem contratação terceirizada."
+            },
+            {
+              "id": "2-hum-industria-trabalho-q2",
+              "lessonId": "2-hum-industria-trabalho-1",
+              "prompt": "Após reorganizar tarefas, uma fábrica passa a produzir mais peças por hora. O salário e os equipamentos de segurança não mudam. Qual conclusão é mais adequada?",
+              "options": [
+                "A produtividade aumentou, mas os dados não permitem afirmar que as condições de trabalho melhoraram.",
+                "As condições de trabalho melhoraram necessariamente, porque toda alta de produção beneficia igualmente os trabalhadores.",
+                "A produtividade diminuiu, pois a quantidade produzida por hora deixou de ser relevante.",
+                "Os trabalhadores passaram a controlar a fábrica, pois a produção ficou mais rápida."
+              ],
+              "correct": 0,
+              "explanation": "Produtividade relaciona a quantidade produzida a um período ou a recursos usados. Ela pode crescer sem aumento de salário ou melhora de segurança; por isso, desempenho produtivo e condições de trabalho devem ser avaliados separadamente."
+            }
+          ]
+        },
+        {
+          "id": "2-hum-migracao-urbanizacao-1",
+          "title": "Migrações internas, crescimento urbano e acesso à cidade",
+          "objective": "Interpretar fatores que influenciam migrações internas e relacionar a expansão urbana à distribuição desigual de moradia, transporte e serviços.",
+          "lesson": "Migração é o deslocamento de pessoas entre lugares, que pode ser temporário, permanente ou ocorrer em mais de uma etapa; motivos de trabalho, estudo, vínculos familiares e condições ambientais podem se combinar. Urbanização é o aumento da proporção da população que vive em áreas urbanas e a expansão e transformação dessas áreas, não apenas o crescimento físico de uma cidade. A chegada de moradores pode ampliar a demanda por habitação, transporte, saneamento e escolas, mas a oferta desses serviços nem sempre acompanha o ritmo de crescimento. Quando grupos têm acesso muito desigual a moradia e infraestrutura, a cidade apresenta segregação socioespacial, isto é, uma separação desigual de grupos no espaço urbano e nas oportunidades disponíveis.",
+          "example": "Uma família muda de um município pequeno para a periferia de uma metrópole porque há mais vagas de emprego e parentes que podem ajudar na chegada. Passo 1: identifique fatores combinados — oportunidade de trabalho e rede familiar — sem tratar a mudança como resultado de uma causa única. Passo 2: observe que a moradia distante dos empregos pode exigir longos deslocamentos. Passo 3: se transporte e serviços são insuficientes nessa área, relacione a experiência à desigualdade de acesso urbano. Resposta: a migração é influenciada por mais de um fator e pode se associar à segregação socioespacial quando infraestrutura e oportunidades se distribuem desigualmente.",
+          "questions": [
+            {
+              "id": "2-hum-migracao-urbanizacao-q1",
+              "lessonId": "2-hum-migracao-urbanizacao-1",
+              "prompt": "Uma pessoa se muda de um município do interior para uma região metropolitana em busca de emprego, onde também poderá contar com parentes. Qual interpretação respeita melhor a complexidade das migrações?",
+              "options": [
+                "A mudança tem uma única causa: a presença de parentes elimina qualquer influência do trabalho.",
+                "A migração pode resultar da combinação entre busca de emprego e vínculos familiares, sem que um fator explique todos os casos.",
+                "Toda migração para uma metrópole é permanente e ocorre exclusivamente por expulsão do lugar de origem.",
+                "A mudança não é migração, pois ocorre dentro do mesmo país."
+              ],
+              "correct": 1,
+              "explanation": "Migrações internas são deslocamentos dentro de um país e podem envolver motivos combinados, como trabalho e redes familiares. Não é possível generalizar uma causa, a duração ou o percurso para todos os migrantes."
+            },
+            {
+              "id": "2-hum-migracao-urbanizacao-q2",
+              "lessonId": "2-hum-migracao-urbanizacao-1",
+              "prompt": "Em uma cidade em expansão, famílias de baixa renda são empurradas para bairros distantes, com poucos ônibus e serviços, enquanto empregos e equipamentos públicos se concentram no centro. Qual conceito ajuda a analisar essa situação?",
+              "options": [
+                "Segregação socioespacial, pois o acesso à moradia, aos serviços e às oportunidades se distribui desigualmente no espaço.",
+                "Êxodo rural, pois a descrição comprova que todas as famílias vieram diretamente do campo.",
+                "Desindustrialização, pois a concentração de serviços prova que fábricas foram fechadas.",
+                "Mobilidade social ascendente, pois morar longe do centro garante aumento de renda."
+              ],
+              "correct": 0,
+              "explanation": "A situação mostra uma distribuição desigual de grupos, infraestrutura e oportunidades pela cidade, o que caracteriza segregação socioespacial. O enunciado não informa a origem rural das famílias, o fechamento de fábricas nem uma mudança de renda."
+            }
+          ]
+        },
+        {
+          "id": "2-hum-ideologias-participacao-1",
+          "title": "Ideologias políticas, debate público e participação social",
+          "objective": "Comparar ênfases de propostas políticas sem reduzir correntes diversas a rótulos rígidos e identificar formas de participação social.",
+          "lesson": "Ideologia política é um conjunto de ideias e valores que orienta interpretações sobre poder, direitos, economia e o papel do Estado; não é, por si só, um insulto nem um programa idêntico em todos os lugares. Tradições liberais costumam enfatizar liberdades individuais, direitos legais e proteção da propriedade, enquanto correntes socialistas dão destaque às desigualdades materiais e a formas coletivas de organizar a economia e ampliar direitos; há diversidade interna e combinações entre essas ideias. Uma proposta isolada pode ter afinidade com uma corrente sem representar toda a sua história ou todas as suas posições. Participação social inclui votar, organizar associações e sindicatos, apresentar petições, participar de audiências e acompanhar políticas; esses canais permitem expressar interesses e debater decisões, mas não garantem que uma demanda será aceita.",
+          "example": "Moradores percebem que o horário de ônibus não atende quem sai tarde do trabalho. Passo 1: registram horários e exemplos de viagens perdidas para apresentar evidências da dificuldade. Passo 2: uma associação organiza uma petição e solicita fala em audiência pública. Passo 3: o grupo apresenta uma proposta de ajuste e acompanha a resposta do poder público. Resposta: a combinação de organização coletiva e audiência é uma forma de participação social que leva uma demanda ao debate institucional, embora não assegure sua aprovação.",
+          "questions": [
+            {
+              "id": "2-hum-ideologias-participacao-q1",
+              "lessonId": "2-hum-ideologias-participacao-1",
+              "prompt": "Uma plataforma municipal propõe ampliar serviços públicos e usar tributação progressiva para reduzir desigualdades materiais. Qual leitura é mais cuidadosa?",
+              "options": [
+                "A proposta tem afinidade com correntes igualitárias e social-democráticas que defendem ação pública contra desigualdades, mas uma medida não define sozinha toda a ideologia de um grupo.",
+                "A proposta é necessariamente liberal, porque qualquer sistema de tributos protege a propriedade privada.",
+                "A proposta rejeita a democracia, pois a atuação do Estado é incompatível com participação política.",
+                "A proposta não tem conteúdo político, pois serviços públicos não envolvem escolhas sobre prioridades coletivas."
+              ],
+              "correct": 0,
+              "explanation": "O foco em reduzir desigualdades materiais por meio de serviços públicos e tributação progressiva tem afinidade com correntes igualitárias e social-democráticas. A formulação cuidadosa evita concluir que uma única medida define por completo a ideologia de seus defensores."
+            },
+            {
+              "id": "2-hum-ideologias-participacao-q2",
+              "lessonId": "2-hum-ideologias-participacao-1",
+              "prompt": "Uma associação de bairro reúne registros de atrasos de ônibus, entrega uma petição e apresenta uma proposta em audiência pública. O que essa ação demonstra?",
+              "options": [
+                "Que a participação social se limita ao voto e não inclui diálogo com instituições públicas.",
+                "Que a organização coletiva pode levar uma demanda e evidências ao debate público, sem garantir que a proposta será adotada.",
+                "Que a apresentação de uma petição substitui automaticamente a decisão dos representantes eleitos.",
+                "Que os registros de atrasos tornam dispensável qualquer debate sobre as prioridades do transporte."
+              ],
+              "correct": 1,
+              "explanation": "Associações, petições e audiências são canais de participação social que permitem organizar interesses e apresentá-los ao poder público. Participar influencia o debate, mas não substitui por si só os processos decisórios nem garante um resultado específico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "areaId": "nat",
+      "lessons": [
+        {
+          "id": "2-nat-circuitos-potencia-1",
+          "title": "Circuitos resistivos simples: corrente, tensão e potência",
+          "objective": "Calcular a corrente e a potência elétrica em um circuito simples e explicar o que a potência informa sobre o funcionamento de um aparelho.",
+          "lesson": "Em um circuito fechado, a corrente elétrica (I) é o fluxo de cargas, medido em ampères (A), e a tensão (V), medida em volts (V), representa a energia transferida por carga. Para um resistor ideal, a Lei de Ohm relaciona essas grandezas: V = R·I, em que R é a resistência, medida em ohms (Ω). A potência elétrica indica a rapidez com que a energia é transferida e pode ser calculada por P = V·I, em watts (W). Assim, em um resistor, também podemos usar P = I²·R ou P = V²/R, desde que os valores correspondam ao mesmo componente e às condições do circuito.",
+          "example": "Uma resistência de 6 Ω está ligada a uma fonte ideal de 12 V. Primeiro, calculamos a corrente pela Lei de Ohm: I = V/R = 12/6 = 2 A. Depois, calculamos a potência: P = V·I = 12·2 = 24 W. Portanto, a resistência transfere energia à taxa de 24 joules por segundo enquanto essas condições se mantêm.",
+          "questions": [
+            {
+              "id": "q-2-nat-circuitos-potencia-1",
+              "lessonId": "2-nat-circuitos-potencia-1",
+              "prompt": "Um resistor de 4 Ω é conectado a uma fonte ideal de 12 V. Considerando o resistor e o circuito em funcionamento, qual é a potência elétrica dissipada nele?",
+              "options": [
+                "3 W",
+                "16 W",
+                "36 W",
+                "48 W"
+              ],
+              "correct": 2,
+              "explanation": "Pela Lei de Ohm, a corrente é I = V/R = 12/4 = 3 A. Então, P = V·I = 12·3 = 36 W. A potência mede a taxa de transferência de energia, e não apenas a corrente ou a resistência isoladamente."
+            },
+            {
+              "id": "q-2-nat-circuitos-potencia-2",
+              "lessonId": "2-nat-circuitos-potencia-1",
+              "prompt": "Uma lâmpada funciona ligada a uma fonte de 6 V e é percorrida por uma corrente de 0,5 A. Qual potência elétrica ela recebe nessas condições?",
+              "options": [
+                "0,5 W",
+                "3 W",
+                "6,5 W",
+                "12 W"
+              ],
+              "correct": 1,
+              "explanation": "Usamos P = V·I: 6 V × 0,5 A = 3 W. Multiplicar tensão por corrente fornece a potência; somá-las ou dividir a tensão pela corrente não responde ao que foi perguntado."
+            }
+          ]
+        },
+        {
+          "id": "2-nat-conservacao-massa-1",
+          "title": "Reações químicas em sistema fechado: balanceamento e massa",
+          "objective": "Relacionar o balanceamento de uma equação química à conservação dos átomos e calcular a massa total de produtos em um sistema fechado.",
+          "lesson": "Em uma reação química, os átomos dos reagentes se reorganizam para formar produtos; em condições usuais, não são criados nem destruídos. Por isso, uma equação balanceada apresenta a mesma quantidade de átomos de cada elemento nos dois lados, ajustada com coeficientes — números antes das fórmulas — sem alterar os índices das fórmulas. A conservação dos átomos corresponde à conservação da massa total quando se considera um sistema fechado, que não troca matéria com o ambiente. Em um recipiente aberto, a massa medida pode mudar se um gás entrar ou sair, embora a massa total se conserve ao incluir a matéria que deixou o recipiente.",
+          "example": "Na formação de água, começamos com H₂ + O₂ → H₂O. Para igualar os átomos, colocamos 2 antes de H₂O e 2 antes de H₂: 2H₂ + O₂ → 2H₂O; agora há 4 átomos de H e 2 de O em cada lado. Em termos de massa, 4 g de hidrogênio reagem com 32 g de oxigênio; em um sistema fechado, formam 36 g de água, pois 4 + 32 = 36 g.",
+          "questions": [
+            {
+              "id": "q-2-nat-conservacao-massa-1",
+              "lessonId": "2-nat-conservacao-massa-1",
+              "prompt": "Em um recipiente fechado, uma reação consome completamente 18 g de uma substância e 32 g de outra. Se não há troca de matéria com o ambiente, qual é a massa total dos produtos ao final?",
+              "options": [
+                "14 g",
+                "32 g",
+                "50 g",
+                "576 g"
+              ],
+              "correct": 2,
+              "explanation": "Em sistema fechado, a massa total se conserva. A massa dos reagentes é 18 g + 32 g = 50 g; portanto, a massa total dos produtos também é 50 g."
+            },
+            {
+              "id": "q-2-nat-conservacao-massa-2",
+              "lessonId": "2-nat-conservacao-massa-1",
+              "prompt": "Uma reação libera um gás em um recipiente aberto. Ao pesar apenas o recipiente e seu conteúdo, a massa final parece menor que a inicial. Qual interpretação é compatível com a conservação da massa?",
+              "options": [
+                "Parte da matéria deixou o recipiente como gás; ao contabilizar também esse gás no ambiente, a massa total se conserva.",
+                "A reação destruiu matéria porque a massa medida no recipiente diminuiu.",
+                "O gás não tem massa, então não precisa ser considerado no balanço.",
+                "A conservação da massa vale somente quando a reação não forma produtos gasosos."
+              ],
+              "correct": 0,
+              "explanation": "A pesagem considera apenas o recipiente e o que permaneceu dentro dele. Como o gás saiu, a massa medida nesse limite diminui; ao incluir o gás que foi para o ambiente, a matéria total continua contabilizada e a massa se conserva."
+            }
+          ]
+        },
+        {
+          "id": "2-nat-heranca-mendeliana-1",
+          "title": "Cruzamentos mendelianos: genótipos e probabilidade de herança",
+          "objective": "Representar cruzamentos de um gene com dominância completa e calcular probabilidades de genótipos e fenótipos na descendência.",
+          "lesson": "Um gene pode ter versões chamadas alelos; neste modelo, A é dominante sobre a e indivíduos AA ou Aa apresentam o fenótipo dominante, enquanto aa apresenta o recessivo. O genótipo é a combinação de alelos, e cada descendente recebe um alelo de cada progenitor. Para prever probabilidades, listamos os alelos que cada progenitor pode transmitir e combinamos as possibilidades; em cruzamentos simples, cada gameta tem a probabilidade indicada pelo genótipo parental. Essas previsões descrevem chances, não garantem que uma família pequena terá exatamente as proporções esperadas.",
+          "example": "No cruzamento Aa × Aa, cada progenitor pode transmitir A ou a, cada um com probabilidade de 1/2. As combinações possíveis são AA, Aa, aA e aa, cada uma com probabilidade de 1/4. Como Aa e aA representam o mesmo genótipo heterozigoto, a chance de fenótipo dominante é 3/4, enquanto a chance de genótipo aa e fenótipo recessivo é 1/4.",
+          "questions": [
+            {
+              "id": "q-2-nat-heranca-mendeliana-1",
+              "lessonId": "2-nat-heranca-mendeliana-1",
+              "prompt": "Em um modelo de dominância completa, A é dominante e aa produz o fenótipo recessivo. Em um cruzamento Aa × aa, qual é a probabilidade de um descendente apresentar o fenótipo recessivo?",
+              "options": [
+                "0%",
+                "25%",
+                "50%",
+                "100%"
+              ],
+              "correct": 2,
+              "explanation": "O progenitor Aa transmite A ou a com igual probabilidade, enquanto o progenitor aa sempre transmite a. Metade das combinações será Aa e metade aa; somente aa apresenta o fenótipo recessivo, então a probabilidade é 50%."
+            },
+            {
+              "id": "q-2-nat-heranca-mendeliana-2",
+              "lessonId": "2-nat-heranca-mendeliana-1",
+              "prompt": "Dois progenitores Aa têm dois descendentes. Admitindo que cada nascimento seja independente e que o fenótipo recessivo ocorra somente em aa, qual é a probabilidade de ambos os descendentes serem aa?",
+              "options": [
+                "1/16",
+                "1/8",
+                "1/4",
+                "1/2"
+              ],
+              "correct": 0,
+              "explanation": "No cruzamento Aa × Aa, cada descendente tem probabilidade 1/4 de ser aa. Como os nascimentos são independentes, a probabilidade de ambos serem aa é (1/4) × (1/4) = 1/16."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "areaId": "red",
+      "lessons": [
+        {
+          "id": "2-red-delimitacao-do-problema-1",
+          "title": "Do tema ao problema: delimitar o desperdício de água na escola",
+          "objective": "Transformar um tema amplo em um problema circunscrito e formular uma tese que responda a esse recorte.",
+          "lesson": "Tema é o assunto geral; recorte define em que contexto, grupo ou aspecto o texto vai se concentrar, e problema nomeia a dificuldade que precisa ser explicada ou enfrentada. Para delimitar, combine tema + contexto + aspecto problemático, em vez de tentar discutir tudo de uma vez. A tese deve responder ao problema com uma posição e uma linha de justificativa, não apenas repetir o tema. Um recorte produtivo é relevante, compreensível e possível de desenvolver no espaço de uma redação.",
+          "example": "Passo 1 — Tema amplo: uso da água. Passo 2 — Contexto e aspecto: desperdício causado por torneiras com vazamento em escolas públicas municipais. Passo 3 — Problema delimitado: como os vazamentos e a demora em encaminhar reparos contribuem para o desperdício nesse contexto? Passo 4 — Tese possível: nas escolas públicas municipais, canais simples para comunicar vazamentos e inspeções periódicas podem reduzir o desperdício, pois facilitam a identificação e o encaminhamento dos reparos. A tese responde ao recorte e já aponta uma justificativa, sem afirmar que todas as escolas vivem a mesma situação.",
+          "questions": [
+            {
+              "id": "2-red-q-delimitacao-1",
+              "lessonId": "2-red-delimitacao-do-problema-1",
+              "prompt": "Uma proposta de redação trata da redução do desperdício de água em escolas públicas municipais. Qual pergunta de problema oferece um recorte claro, sem se limitar a repetir um tema amplo ou apresentar apenas uma solução?",
+              "options": [
+                "Por que a água é essencial para todos e deve ser valorizada?",
+                "Como vazamentos em torneiras de escolas públicas municipais contribuem para o desperdício e quais obstáculos dificultam a correção rápida?",
+                "Quais são todos os problemas ambientais que afetam o planeta?",
+                "A escola deve economizar água por meio de cartazes, consertos e campanhas."
+              ],
+              "correct": 1,
+              "explanation": "A segunda opção delimita o contexto (escolas públicas municipais), o aspecto problemático (vazamentos e desperdício) e uma dimensão a investigar (obstáculos à correção). A primeira e a terceira permanecem amplas; a quarta já propõe ações, mas não formula a pergunta-problema."
+            },
+            {
+              "id": "2-red-q-delimitacao-2",
+              "lessonId": "2-red-delimitacao-do-problema-1",
+              "prompt": "Considere este problema delimitado: em escolas públicas municipais, vazamentos persistentes em torneiras podem gerar desperdício quando os pedidos de manutenção demoram a ser encaminhados. Qual tese responde melhor ao recorte e apresenta uma justificativa?",
+              "options": [
+                "A água é importante para a vida, por isso devemos proteger o planeta.",
+                "Nas escolas públicas municipais, é preciso combinar canais simples para avisar sobre vazamentos com uma rotina de inspeção, pois a identificação e o encaminhamento mais rápidos podem evitar que defeitos persistam.",
+                "Há torneiras com vazamento em escolas, e algumas delas ficam pingando.",
+                "A água é usada em muitas atividades humanas desde a Antiguidade."
+              ],
+              "correct": 1,
+              "explanation": "A tese correta mantém o recorte das escolas públicas municipais, toma posição e explica a relação entre ações propostas e o problema: identificar e encaminhar defeitos mais rapidamente pode evitar sua persistência. As demais opções são genéricas, apenas descritivas ou não respondem ao problema delimitado."
+            }
+          ]
+        },
+        {
+          "id": "2-red-desenvolvimento-por-causa-consequencia-exemplo-2",
+          "title": "Desenvolver um argumento sobre sobras na merenda escolar",
+          "objective": "Construir um parágrafo que explique uma causa, mostre uma consequência e use um exemplo concreto sem generalizar além das evidências.",
+          "lesson": "No desenvolvimento, organize a relação causa → mecanismo → consequência: não basta colocar dois fatos lado a lado, é preciso explicar como um leva ao outro. Um exemplo concreto torna o mecanismo visível, mas deixe claro se ele é hipotético, observado ou apoiado por uma fonte, sem inventar dados. Conectores como “porque”, “com isso” e “por exemplo” ajudam quando expressam relações lógicas reais. Um parágrafo consistente liga essa explicação à tese, em vez de acumular frases sobre o tema.",
+          "example": "Passo 1 — Causa possível: a quantidade preparada não é ajustada quando a presença de estudantes varia. Passo 2 — Mecanismo e consequência: se a produção permanece igual mesmo com menos pessoas no refeitório, podem sobrar porções prontas e recursos usados no preparo podem ser desperdiçados. Passo 3 — Exemplo explicitamente hipotético: em uma escola, se parte de uma turma faltar e a cozinha mantiver a mesma produção, algumas porções podem restar ao fim do almoço. Parágrafo-modelo: “Quando o planejamento da merenda não considera variações de presença, a cozinha pode preparar mais porções do que serão consumidas; com isso, alimentos prontos e recursos de preparo correm o risco de ser desperdiçados. Por exemplo, em uma escola hipotética, a falta de parte de uma turma, sem ajuste na produção, poderia deixar porções ao fim do almoço. O caso ilustra um mecanismo possível, não prova que ele ocorra em toda escola.”",
+          "questions": [
+            {
+              "id": "2-red-q-desenvolvimento-1",
+              "lessonId": "2-red-desenvolvimento-por-causa-consequencia-exemplo-2",
+              "prompt": "Em uma redação sobre desperdício de alimentos em refeitórios escolares, qual trecho desenvolve uma relação de causa e consequência e a ilustra com um exemplo identificado como hipotético?",
+              "options": [
+                "A sobra de comida é um problema sério. A escola deve agir, porque a merenda é importante para todos.",
+                "A quantidade preparada pode não acompanhar as variações de presença; assim, porções prontas podem não ser consumidas e recursos do preparo podem ser desperdiçados. Por exemplo, em uma escola hipotética, se parte da turma faltar e a produção não for ajustada, podem restar porções ao fim do almoço.",
+                "Em todas as escolas, metade da merenda é jogada fora diariamente, pois os estudantes sempre rejeitam os alimentos oferecidos.",
+                "Por exemplo, o refeitório tem mesas, pratos e janelas, e muitos estudantes almoçam durante o intervalo."
+              ],
+              "correct": 1,
+              "explanation": "A segunda opção explica o mecanismo entre o planejamento sem ajuste e a possível sobra, explicita a consequência e sinaliza que o caso é hipotético. A primeira afirma sem desenvolver, a terceira apresenta generalizações e números sem fonte, e a quarta descreve o espaço sem ilustrar a causa discutida."
+            },
+            {
+              "id": "2-red-q-desenvolvimento-2",
+              "lessonId": "2-red-desenvolvimento-por-causa-consequencia-exemplo-2",
+              "prompt": "Um parágrafo relata que sobraram porções em uma escola após a ausência de vários estudantes e conclui: “Todas as escolas públicas desperdiçam comida porque planejam mal”. Qual revisão torna o raciocínio mais rigoroso sem descartar o exemplo?",
+              "options": [
+                "Manter a conclusão universal, pois uma observação concreta é prova suficiente sobre todas as escolas.",
+                "Usar o caso para ilustrar como a variação de presença pode gerar sobras, limitar a conclusão ao que ele permite afirmar e buscar evidências mais amplas antes de generalizar.",
+                "Retirar a explicação de causa e consequência e afirmar apenas que a comida é importante.",
+                "Atribuir as sobras à falta de responsabilidade dos estudantes, mesmo sem evidência sobre esse comportamento."
+              ],
+              "correct": 1,
+              "explanation": "Um caso pode tornar um mecanismo concreto, mas não demonstra que a mesma situação ocorra em todas as escolas nem que seja a causa geral. A revisão correta preserva o exemplo, calibra o alcance da conclusão e pede evidências mais amplas para sustentar uma generalização."
+            }
+          ]
+        },
+        {
+          "id": "2-red-repertorio-pertinente-analise-critica-3",
+          "title": "Relacionar repertório e análise crítica ao acesso à biblioteca escolar",
+          "objective": "Selecionar uma referência pertinente, explicitar sua relação com o recorte e avaliar o alcance das evidências usadas.",
+          "lesson": "Repertório é uma referência cultural, histórica, científica ou social que ajuda a iluminar o problema; sua pertinência depende da relação explicada com a tese, não apenas de ser conhecido. Para integrá-lo, apresente a ideia, mostre como ela se conecta ao recorte e formule uma inferência, em vez de apenas citar um nome ou princípio. Análise crítica também considera limites: um relato ou caso pode ilustrar uma barreira, mas não prova sozinho que ela exista em todos os lugares. Use referências que consiga contextualizar com precisão e faça a ponte entre elas e o argumento.",
+          "example": "Situação de trabalho: em um cenário hipotético, a biblioteca de uma escola fecha durante as aulas e não dispõe de alguns títulos solicitados pelos estudantes. Passo 1 — Repertório: use a noção de que a educação deve promover acesso ao conhecimento. Passo 2 — Relação e análise: a existência física de uma biblioteca, por si só, não garante que os estudantes consigam usá-la se o horário e o acervo criarem barreiras. Passo 3 — Limite: esse caso ajuda a analisar a escola descrita, mas não permite afirmar que todas as bibliotecas escolares enfrentam os mesmos obstáculos. Resposta-modelo: “A ideia de educação como acesso ao conhecimento ajuda a avaliar a biblioteca para além de sua existência formal: quando o espaço abre apenas durante as aulas e não oferece parte dos títulos procurados, o acesso pode ser limitado. Esse exemplo aponta uma barreira possível na escola considerada, sem provar que ela seja universal.”",
+          "questions": [
+            {
+              "id": "2-red-q-repertorio-1",
+              "lessonId": "2-red-repertorio-pertinente-analise-critica-3",
+              "prompt": "Considere o recorte: estudantes têm dificuldade para usar a biblioteca escolar porque ela abre apenas durante as aulas e parte dos livros solicitados não está disponível. Qual trecho integra um repertório pertinente e o relaciona criticamente ao problema?",
+              "options": [
+                "A educação é importante para a sociedade. Logo, todos devem valorizar a leitura.",
+                "A noção de educação como acesso ao conhecimento ajuda a analisar o caso: embora a escola tenha uma biblioteca, horários que coincidem com as aulas e um acervo pouco alinhado às demandas podem impedir seu uso efetivo; a existência do espaço, sozinha, não garante acesso.",
+                "A biblioteca foi importante em diferentes épocas e, por isso, todos os estudantes preferem livros de ficção.",
+                "A ideia de educação como direito prova que cada escola precisa oferecer imediatamente todos os livros já publicados."
+              ],
+              "correct": 1,
+              "explanation": "A segunda opção explica a relação entre a noção de acesso ao conhecimento e as barreiras do recorte, inferindo que a existência física do espaço não basta. As outras opções ficam em afirmações genéricas ou fazem inferências e exigências que não são sustentadas pelo problema apresentado."
+            },
+            {
+              "id": "2-red-q-repertorio-2",
+              "lessonId": "2-red-repertorio-pertinente-analise-critica-3",
+              "prompt": "Para apoiar uma redação, uma estudante conversa com oito colegas da própria turma; todos dizem que não usam a biblioteca da escola. Qual conclusão respeita melhor o alcance dessa evidência?",
+              "options": [
+                "A conversa prova que estudantes de todo o Brasil não usam bibliotecas escolares.",
+                "O relato pode ilustrar uma percepção daquela turma, mas não basta para generalizar ao país; a conclusão deve ser limitada ou apoiada por evidências mais amplas e diversificadas.",
+                "A conversa deve ser descartada por completo, pois relatos de estudantes nunca podem contribuir para uma redação.",
+                "O número de oito colegas garante representatividade para qualquer população de estudantes."
+              ],
+              "correct": 1,
+              "explanation": "As respostas dos oito colegas podem ilustrar uma experiência local, mas o grupo restrito de uma turma não representa automaticamente estudantes de todo o país. Análise crítica calibra a afirmação ao alcance da evidência e busca dados mais amplos caso se queira sustentar uma generalização."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "3",
+      "areaId": "mat",
+      "lessons": [
+        {
+          "id": "3-mat-exponenciais-1",
+          "title": "Crescimento exponencial e tempo para atingir uma meta",
+          "objective": "Modelar crescimento percentual por uma função exponencial e usar logaritmos para estimar quando uma quantidade alcançará determinado valor.",
+          "lesson": "Quando uma quantidade aumenta sempre pela mesma porcentagem em cada intervalo, seu crescimento é exponencial: se começa em P₀ e o fator de crescimento por intervalo é a, então P(t)=P₀·aᵗ. Por exemplo, aumento de 20% corresponde ao fator 1,20, pois a quantidade nova é 100%+20% da anterior. Para descobrir o número de intervalos até uma meta, isolamos a potência e usamos o logaritmo, que é a operação inversa da exponenciação: se aᵗ=b, então t=log(b)/log(a). O modelo pressupõe que a taxa percentual permaneça constante; o resultado pode ser fracionário quando a meta é atingida entre dois intervalos.",
+          "example": "Um arquivo digital ocupa 250 GB e cresce 20% ao ano. Após 3 anos, P(3)=250·1,2³=250·1,728=432 GB. Para estimar quando alcançará 500 GB, resolvemos 250·1,2ᵗ=500, então 1,2ᵗ=2 e t=log(2)/log(1,2)≈3,80. Portanto, segundo o modelo, a meta é atingida em cerca de 3,8 anos.",
+          "questions": [
+            {
+              "id": "q-3-mat-exponenciais-01",
+              "lessonId": "3-mat-exponenciais-1",
+              "prompt": "Uma plataforma armazena 200 GB de dados e essa quantidade cresce 10% ao ano, sempre sobre o total do ano anterior. Quantos gigabytes haverá após 2 anos, segundo o modelo exponencial?",
+              "options": [
+                "220 GB",
+                "242 GB",
+                "240 GB",
+                "420 GB"
+              ],
+              "correct": 1,
+              "explanation": "Crescer 10% ao ano significa multiplicar por 1,10 em cada ano. Após dois anos: 200·1,10²=200·1,21=242 GB. Somar apenas 10% uma vez não considera a composição do crescimento no segundo ano."
+            },
+            {
+              "id": "q-3-mat-exponenciais-02",
+              "lessonId": "3-mat-exponenciais-1",
+              "prompt": "Uma cultura começa com 500 microrganismos e dobra a cada 6 meses. Aproximadamente quanto tempo levará para chegar a 3.000 microrganismos, supondo crescimento contínuo conforme esse modelo? Use log(6)/log(2)≈2,585.",
+              "options": [
+                "6 meses",
+                "12 meses",
+                "15,5 meses",
+                "18 meses"
+              ],
+              "correct": 2,
+              "explanation": "A quantidade precisa ser multiplicada por 6, pois 3.000/500=6. Se t é o número de períodos de 6 meses, então 2ᵗ=6 e t=log(6)/log(2)≈2,585 períodos. Convertendo para meses: 2,585·6≈15,5 meses."
+            }
+          ]
+        },
+        {
+          "id": "3-mat-sequencias-1",
+          "title": "Progressões aritméticas e geométricas em situações de crescimento",
+          "objective": "Reconhecer se uma sequência é uma progressão aritmética ou geométrica e calcular termos e somas em situações contextualizadas.",
+          "lesson": "Uma sequência é uma lista ordenada de valores; em uma progressão aritmética (PA), a diferença entre termos consecutivos é constante e recebe o nome de razão d. O termo geral da PA é aₙ=a₁+(n−1)d, e a soma dos n primeiros termos é Sₙ=n(a₁+aₙ)/2. Em uma progressão geométrica (PG), cada termo é obtido multiplicando o anterior por um mesmo fator r, chamado razão, e seu termo geral é aₙ=a₁·rⁿ⁻¹. A PA representa acréscimos ou reduções fixos, enquanto a PG representa variações por um mesmo fator, como aumentos percentuais constantes.",
+          "example": "Uma meta de leitura começa em 12 páginas na primeira semana e aumenta 3 páginas a cada semana. É uma PA com a₁=12 e d=3. Na 10ª semana, a₁₀=12+(10−1)·3=39 páginas. O total lido nas dez semanas é S₁₀=10·(12+39)/2=255 páginas.",
+          "questions": [
+            {
+              "id": "q-3-mat-sequencias-01",
+              "lessonId": "3-mat-sequencias-1",
+              "prompt": "Uma reserva começa com 80 litros e, ao fim de cada mês, seu volume é 1,5 vez o do mês anterior. Considerando 80 litros como o valor do mês 1, qual será o volume no mês 5?",
+              "options": [
+                "202,5 litros",
+                "405 litros",
+                "607,5 litros",
+                "680 litros"
+              ],
+              "correct": 1,
+              "explanation": "A razão multiplicativa é 1,5, então trata-se de uma PG. Do mês 1 ao mês 5 há quatro multiplicações: a₅=80·1,5⁴=80·5,0625=405 litros. O expoente é 4, pois o valor inicial já corresponde ao primeiro mês."
+            },
+            {
+              "id": "q-3-mat-sequencias-02",
+              "lessonId": "3-mat-sequencias-1",
+              "prompt": "Um auditório tem 18 assentos na primeira fileira e cada fileira seguinte tem 2 assentos a mais que a anterior. Quantos assentos há ao todo nas 12 primeiras fileiras?",
+              "options": [
+                "348",
+                "336",
+                "288",
+                "456"
+              ],
+              "correct": 0,
+              "explanation": "As fileiras formam uma PA com a₁=18 e d=2. A 12ª fileira tem 18+11·2=40 assentos. A soma é S₁₂=12·(18+40)/2=348 assentos."
+            }
+          ]
+        },
+        {
+          "id": "3-mat-estatistica-1",
+          "title": "Média e dispersão: comparar dados além do valor central",
+          "objective": "Calcular e interpretar amplitude e desvio-padrão populacional, usando medidas de dispersão para comparar conjuntos de dados.",
+          "lesson": "A média resume o centro de um conjunto, mas não mostra se os valores estão próximos ou espalhados. A amplitude é a diferença entre o maior e o menor valor e oferece uma primeira medida simples de dispersão. Para considerar todos os dados, o desvio-padrão populacional é σ=√(Σ(xᵢ−μ)²/N), em que μ é a média e N é o número de valores; ele resume o afastamento típico em relação à média. Ao comparar grupos, observe tanto o centro quanto a dispersão e use a medida adequada à pergunta: dois grupos podem ter a mesma média e variabilidades diferentes.",
+          "example": "Considere os tempos (em minutos) 4, 6, 6 e 8. A média é μ=(4+6+6+8)/4=6, e a amplitude é 8−4=4. Os desvios em relação à média são −2, 0, 0 e 2; seus quadrados somam 4+0+0+4=8. Logo, σ=√(8/4)=√2≈1,41 minuto. Se outro grupo registra 5, 5, 7 e 7, também tem média 6, mas σ=√(4/4)=1 minuto; nesse grupo, os valores são menos dispersos.",
+          "questions": [
+            {
+              "id": "q-3-mat-estatistica-01",
+              "lessonId": "3-mat-estatistica-1",
+              "prompt": "Dois grupos registraram os seguintes tempos de espera, em minutos: grupo A: 6, 8, 10, 12; grupo B: 2, 8, 10, 16. Ambos têm média 9 minutos. Usando a amplitude para comparar a dispersão, qual conclusão é correta?",
+              "options": [
+                "O grupo A é mais disperso, pois sua amplitude é 8 minutos.",
+                "O grupo B é mais disperso, pois sua amplitude é 14 minutos.",
+                "Os grupos têm a mesma dispersão, pois têm a mesma média.",
+                "O grupo B é menos disperso, pois inclui valores menores que os do grupo A."
+              ],
+              "correct": 1,
+              "explanation": "A amplitude do grupo A é 12−6=6 minutos; a do grupo B é 16−2=14 minutos. Portanto, pela medida solicitada, o grupo B tem maior dispersão. Médias iguais não implicam que os dados estejam igualmente espalhados."
+            },
+            {
+              "id": "q-3-mat-estatistica-02",
+              "lessonId": "3-mat-estatistica-1",
+              "prompt": "Para o conjunto completo de valores 2, 4, 6 e 8, qual é o desvio-padrão populacional aproximado?",
+              "options": [
+                "1,50",
+                "2,24",
+                "5,00",
+                "4,47"
+              ],
+              "correct": 1,
+              "explanation": "A média é 5. Os desvios são −3, −1, 1 e 3, e os quadrados somam 9+1+1+9=20. Dividindo por N=4, a variância populacional é 5; o desvio-padrão é √5≈2,24. Não se confunde a variância 5 com sua raiz quadrada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "3",
+      "areaId": "ling",
+      "lessons": [
+        {
+          "id": "3-ling-retorica-1",
+          "title": "Concessão e pergunta retórica: persuadir sem transformar opinião em prova",
+          "objective": "Identificar como concessões e perguntas retóricas orientam a leitura de um argumento e distinguir efeito persuasivo de evidência verificável.",
+          "lesson": "Uma estratégia retórica é uma escolha de linguagem feita para orientar a interpretação e a resposta do público; ela pode persuadir, mas não comprova sozinha uma afirmação. Na concessão, o texto reconhece um ponto possível do interlocutor — muitas vezes com expressões como “é verdade que” — e depois mostra por que a tese continua defensável. A pergunta retórica não busca necessariamente uma informação: ela conduz o leitor a considerar uma resposta implícita. Para avaliar o argumento, separe a tese, as estratégias usadas para apresentá-la e as evidências que poderiam sustentá-la ou contestá-la.",
+          "example": "Trecho criado para análise: “É verdade que ampliar a biblioteca exige investimento; mas, se queremos que mais estudantes leiam, não vale perguntar quanto custa também deixar de oferecer esse acesso?” Passo 1: a concessão reconhece o custo. Passo 2: a tese implícita defende ampliar o acesso à biblioteca. Passo 3: a pergunta retórica desloca a atenção para o custo da falta de acesso, sem apresentar dados sobre orçamento ou leitura. Resposta: o trecho torna a proposta mais persuasiva ao antecipar uma objeção e reformulá-la, mas ainda precisaria de evidências para demonstrar seus efeitos.",
+          "questions": [
+            {
+              "id": "q-3-ling-retorica-1-1",
+              "lessonId": "3-ling-retorica-1",
+              "prompt": "Em um editorial estudantil, lê-se: “Embora a coleta seletiva demande organização, separar os resíduos na escola é uma medida necessária. Afinal, queremos que materiais recicláveis terminem no lixo comum?” Qual análise descreve melhor o papel da pergunta final?",
+              "options": [
+                "Ela apresenta uma estatística que comprova que a coleta seletiva reduz o lixo.",
+                "Ela funciona como pergunta retórica, orientando o leitor a aceitar a importância da separação, sem oferecer por si só uma comprovação factual.",
+                "Ela desfaz a tese anterior, pois admite que a organização torna a medida impossível.",
+                "Ela concede razão ao leitor e, por isso, substitui o argumento por uma opinião neutra."
+              ],
+              "correct": 1,
+              "explanation": "A pergunta sugere uma resposta socialmente desejável e reforça a tese, em vez de solicitar um dado ao leitor. Esse efeito persuasivo não equivale a uma estatística nem comprova resultados; a concessão inicial apenas reconhece uma dificuldade antes de defender a proposta."
+            },
+            {
+              "id": "q-3-ling-retorica-1-2",
+              "lessonId": "3-ling-retorica-1",
+              "prompt": "Uma campanha afirma: “É compreensível preferir o carro em dias de chuva; ainda assim, em trajetos curtos, caminhar pode reduzir o número de veículos em circulação.” Qual informação adicional seria a evidência mais diretamente pertinente para avaliar a afirmação sobre a redução de veículos?",
+              "options": [
+                "Uma pesquisa local que compare quantos trajetos curtos são feitos de carro antes e depois de uma iniciativa de caminhada, com método e período informados.",
+                "O relato de que a pessoa responsável pela campanha gosta de caminhar.",
+                "Uma imagem de uma rua arborizada acompanhada de uma frase inspiradora.",
+                "A repetição da expressão “trajetos curtos” em várias peças da campanha."
+              ],
+              "correct": 0,
+              "explanation": "A afirmação trata de uma possível mudança no número de veículos; uma comparação local com método e período explícitos é evidência pertinente para verificá-la. Preferência pessoal, imagem e repetição podem influenciar a recepção, mas não medem o efeito alegado."
+            }
+          ]
+        },
+        {
+          "id": "3-ling-literatura-2",
+          "title": "Fragmentação e voz poética na experiência urbana moderna e contemporânea",
+          "objective": "Interpretar como cortes, imagens e mudanças de foco em um poema de verso livre constroem sentidos sobre a experiência urbana.",
+          "lesson": "Na literatura moderna e contemporânea, a fragmentação pode aproximar a forma do texto de uma experiência percebida em flashes, sem que isso torne a obra aleatória ou sem sentido. O eu lírico é a voz que fala no poema e não deve ser automaticamente confundido com a pessoa autora. Em versos livres, a ausência de um esquema fixo de rimas ou métrica não significa ausência de organização: pausas, repetições, cortes e imagens criam relações entre as partes. Uma leitura cuidadosa pergunta o que muda quando duas imagens são aproximadas e como essa composição afeta a voz poética.",
+          "example": "Poema original para leitura: “No vidro do ônibus / meu rosto passa — / atrás dele, fachadas acesas. // O sinal fecha. / Uma janela permanece aberta / no prédio que já não olho.” Passo 1: observe os cortes entre ônibus, sinal e janela, como mudanças rápidas de foco. Passo 2: note o contraste entre o movimento do rosto refletido e a janela que permanece aberta. Passo 3: relacione as imagens à atenção passageira na cidade, sem afirmar que a voz poética é a autora. Resposta: a montagem de cenas breves sugere uma experiência urbana marcada por deslocamento e por instantes de atenção que logo se perdem.",
+          "questions": [
+            {
+              "id": "q-3-ling-literatura-2-1",
+              "lessonId": "3-ling-literatura-2",
+              "prompt": "No poema do exemplo, a passagem do rosto refletido no ônibus para a janela aberta em outro prédio cria principalmente qual efeito de sentido?",
+              "options": [
+                "Apresenta uma sequência documental precisa que identifica a pessoa autora e o local da cena.",
+                "Constrói uma sucessão de focos visuais breves, sugerindo a atenção móvel de quem atravessa a cidade.",
+                "Demonstra que a voz poética está imóvel e observa o mesmo objeto durante todo o poema.",
+                "Estabelece uma rima regular que organiza os versos em estrofes de métrica fixa."
+              ],
+              "correct": 1,
+              "explanation": "A mudança entre o reflexo no ônibus e a janela em outro prédio funciona como corte de foco, compondo imagens passageiras próprias de um olhar em deslocamento. O trecho não identifica autora ou lugar, e seus versos livres não estabelecem a rima regular descrita nas outras opções."
+            },
+            {
+              "id": "q-3-ling-literatura-2-2",
+              "lessonId": "3-ling-literatura-2",
+              "prompt": "Em uma leitura de um poema contemporâneo escrito em versos livres, um estudante diz: “Como não há rima fixa, os cortes entre os versos não podem contribuir para o significado.” Qual resposta interpreta melhor a organização do poema?",
+              "options": [
+                "A afirmação está correta, porque somente rima e métrica podem organizar um poema.",
+                "A afirmação está correta, pois versos livres são frases em prosa divididas ao acaso.",
+                "A afirmação está incorreta: mesmo sem esquema fixo de rima, os cortes podem marcar pausas, contrastes ou mudanças de imagem e, assim, produzir sentido.",
+                "A afirmação está incorreta apenas quando o poema é narrado em primeira pessoa, pois nesse caso a rima é obrigatória."
+              ],
+              "correct": 2,
+              "explanation": "Verso livre não significa falta de construção. Os cortes podem controlar o ritmo da leitura e aproximar ou separar imagens, contribuindo para a interpretação mesmo sem rima ou métrica regulares."
+            }
+          ]
+        },
+        {
+          "id": "3-ling-multimodal-3",
+          "title": "Imagem, legenda e enquadramento: leitura crítica de uma publicação multimodal",
+          "objective": "Analisar como imagem, legenda e enquadramento colaboram para produzir uma interpretação e distinguir observação de inferência em uma publicação de mídia.",
+          "lesson": "Um texto multimodal combina modos de significação — por exemplo, palavras, fotografia, cor, enquadramento e disposição gráfica — que podem se reforçar ou entrar em tensão. A legenda pode ancorar a leitura da imagem, orientando o que o público tende a notar, mas não transforma automaticamente uma interpretação em fato comprovado. Na análise crítica, primeiro descreva elementos observáveis; depois identifique a inferência sugerida e pergunte que contexto ou fonte falta para verificá-la. Também importa examinar o enquadramento: o que aparece, o que fica fora de quadro e como essa seleção influencia o efeito de sentido.",
+          "example": "Publicação hipotética: uma foto mostra uma calçada molhada e, ao fundo, uma única lixeira transbordando; a legenda diz “A cidade inteira está abandonada”. Passo 1: descreva o observável — uma calçada molhada e uma lixeira cheia naquele enquadramento. Passo 2: identifique a inferência ampla da legenda — que toda a cidade estaria abandonada. Passo 3: compare o alcance da frase ao da imagem e procure data, local, outras evidências e contexto. Resposta: a fotografia pode ilustrar um problema pontual, mas, isoladamente, não sustenta a generalização “a cidade inteira”; a legenda orienta e amplia a interpretação para além do que se vê.",
+          "questions": [
+            {
+              "id": "q-3-ling-multimodal-3-1",
+              "lessonId": "3-ling-multimodal-3",
+              "prompt": "Uma postagem mostra a fotografia de uma praça vazia às 6h e traz a legenda “Ninguém usa os espaços públicos”. Qual conclusão é mais adequada a uma leitura crítica da relação entre imagem e legenda?",
+              "options": [
+                "A imagem comprova que a praça fica vazia em todos os horários e dias.",
+                "A legenda é necessariamente falsa, porque uma fotografia nunca pode informar sobre um espaço público.",
+                "A foto registra um enquadramento e um horário específicos; a legenda generaliza para todos os usuários e momentos, o que exigiria outras evidências.",
+                "Como a praça está vazia, é possível concluir que a administração pública não oferece serviços no local."
+              ],
+              "correct": 2,
+              "explanation": "A observação se limita à praça fotografada naquele enquadramento e horário. A legenda transforma esse recorte em uma afirmação geral sobre uso, que não é demonstrada pela imagem isolada; a conclusão sobre serviços também não decorre do que se vê."
+            },
+            {
+              "id": "q-3-ling-multimodal-3-2",
+              "lessonId": "3-ling-multimodal-3",
+              "prompt": "Em um card informativo, a frase “O projeto reduziu o desperdício” aparece em letras grandes; abaixo, em fonte pequena, lê-se “dados de uma turma, durante uma semana”. Que aspecto merece maior atenção antes de compartilhar o card?",
+              "options": [
+                "Se a hierarquia visual dá destaque a uma conclusão mais ampla do que o alcance indicado pela fonte e pelo período dos dados.",
+                "Se o título está escrito em caixa alta, pois isso basta para confirmar ou refutar os números.",
+                "Se as letras pequenas tornam os dados automaticamente inválidos, independentemente da fonte e do método.",
+                "Se a cor do fundo combina com a identidade visual do projeto, pois isso determina a confiabilidade estatística."
+              ],
+              "correct": 0,
+              "explanation": "A diferença de destaque pode levar o público a perceber como ampla uma conclusão apoiada apenas em dados de uma turma e de uma semana. É preciso conferir se a afirmação respeita esse escopo e buscar fonte e método; tamanho de letra ou cor, isoladamente, não estabelecem validade."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "3",
+      "areaId": "hum",
+      "lessons": [
+        {
+          "id": "3-hum-republica-memoria-1",
+          "title": "República brasileira: cidadania e disputas pela memória",
+          "objective": "Analisar como a mudança para a República se relaciona com a ampliação desigual da cidadania e avaliar criticamente o que narrativas públicas sobre o passado incluem ou deixam de fora.",
+          "lesson": "República é uma forma de governo na qual os cargos públicos não são, em princípio, propriedade hereditária de uma família, mas isso não garante que todas as pessoas participem igualmente da política. No Brasil, a proclamação da República, em 1889, mudou o regime, mas direitos e participação foram ampliados de modo desigual e por meio de disputas históricas. Memória coletiva é a maneira como grupos selecionam e interpretam lembranças do passado; monumentos, celebrações e livros podem destacar algumas experiências e silenciar outras. Para analisar uma narrativa, compare quem a produziu, quando e com qual propósito, e procure outras fontes antes de confundir ausência de representação com ausência de ação histórica.",
+          "example": "Uma mostra escolar sobre 1889 exibe apenas retratos de militares e não menciona pessoas negras recém-libertas, trabalhadores ou mulheres. Passo 1: observe quem aparece como agente da mudança. Passo 2: identifique quem ficou de fora e busque outras fontes, como relatos, jornais e documentos de época. Passo 3: conclua que a mostra apresenta uma memória seletiva, não que os grupos omitidos não tenham vivido ou influenciado a história; uma versão mais equilibrada precisa explicitar esses limites e incluir outras perspectivas.",
+          "questions": [
+            {
+              "id": "q-3-hum-republica-memoria-1",
+              "lessonId": "3-hum-republica-memoria-1",
+              "prompt": "Uma exposição sobre a proclamação da República mostra apenas lideranças militares. Qual conclusão é mais bem sustentada por essa escolha de conteúdo?",
+              "options": [
+                "Os grupos que não aparecem não tiveram qualquer participação na história do período.",
+                "A exposição seleciona uma perspectiva da memória pública; a ausência de certos grupos na mostra não prova que eles estiveram ausentes da história.",
+                "A existência de uma exposição transforma automaticamente sua narrativa em registro completo e neutro.",
+                "A memória coletiva é imutável e não pode ser discutida com base em outras fontes."
+              ],
+              "correct": 1,
+              "explanation": "A alternativa correta distingue representação de realidade histórica: uma exposição escolhe o que destacar, e essa escolha pode silenciar experiências. Para avaliar a memória apresentada, é preciso comparar fontes e perspectivas, sem inferir que o grupo omitido não agiu ou não existiu."
+            },
+            {
+              "id": "q-3-hum-republica-memoria-2",
+              "lessonId": "3-hum-republica-memoria-1",
+              "prompt": "Um texto afirma: “Como o Brasil se tornou uma República em 1889, todos passaram a exercer os mesmos direitos políticos”. Qual revisão corrige melhor o raciocínio sem abandonar o tema?",
+              "options": [
+                "A mudança de regime, em 1889, não garantiu por si só participação política igual; a cidadania foi ampliada de forma desigual e em meio a disputas históricas.",
+                "A República eliminou imediatamente todas as diferenças sociais e políticas do país.",
+                "A proclamação alterou somente os nomes dos cargos, portanto não teve relação com a organização política.",
+                "A cidadania é sempre igual em qualquer regime, então não é necessário examinar a história brasileira."
+              ],
+              "correct": 0,
+              "explanation": "A resposta correta evita tratar a mudança de regime como sinônimo de igualdade efetiva. Cidadania envolve direitos e participação, cuja conquista e exercício dependem de processos históricos e podem permanecer desiguais."
+            }
+          ]
+        },
+        {
+          "id": "3-hum-globalizacao-redes-2",
+          "title": "Globalização em rede: infraestrutura digital e desigualdade de acesso",
+          "objective": "Explicar como fluxos globais dependem de redes materiais e analisar por que medir apenas a existência de conexão pode ocultar desigualdades digitais.",
+          "lesson": "Globalização é a intensificação de relações e fluxos entre lugares, como circulação de mercadorias, informações, pessoas e dinheiro. Uma rede é formada por pontos conectados por ligações: centros de dados, cabos, antenas e portos são nós ou trechos materiais que sustentam fluxos, mesmo quando o serviço parece virtual. A desigualdade digital não se resume a estar conectado ou desconectado: também envolve velocidade, estabilidade, custo, dispositivos disponíveis e condições para usar a informação. Por isso, ao comparar territórios, examine tanto a cobertura quanto a qualidade e a possibilidade real de transformar a conexão em estudo, trabalho e participação.",
+          "example": "Uma pesquisa registra que 80% das famílias de dois bairros têm acesso à internet, mas em um bairro há fibra e planos estáveis, enquanto no outro muitas pessoas dependem de dados móveis limitados compartilhados por várias pessoas. Passo 1: reconheça que a porcentagem mede presença de algum acesso, não sua qualidade. Passo 2: compare velocidade, custo, estabilidade e disponibilidade de aparelhos. Passo 3: conclua que a taxa igual não significa oportunidades iguais; a pesquisa deve incluir essas dimensões para retratar melhor a desigualdade digital.",
+          "questions": [
+            {
+              "id": "q-3-hum-globalizacao-redes-1",
+              "lessonId": "3-hum-globalizacao-redes-2",
+              "prompt": "Uma pesquisa sobre globalização informa que a interrupção de um cabo submarino reduziu a velocidade de serviços digitais em vários países. Que ideia esse caso ilustra melhor?",
+              "options": [
+                "Os fluxos digitais são independentes de qualquer infraestrutura localizada em territórios.",
+                "A interrupção prova que a globalização eliminou as diferenças entre os países conectados.",
+                "Os fluxos de informação dependem de redes materiais e de conexões entre lugares, embora os serviços sejam usados em telas.",
+                "Uma rede digital é composta exclusivamente por usuários individuais, sem pontos de conexão ou equipamentos."
+              ],
+              "correct": 2,
+              "explanation": "A resposta correta relaciona o fluxo aparentemente virtual à infraestrutura física que o transporta. Cabos, antenas e centros de dados são partes territoriais das redes que tornam possíveis conexões globais."
+            },
+            {
+              "id": "q-3-hum-globalizacao-redes-2",
+              "lessonId": "3-hum-globalizacao-redes-2",
+              "prompt": "Dois bairros apresentam a mesma porcentagem de moradores com algum acesso à internet, mas um tem fibra estável e o outro depende de dados móveis caros e limitados. Qual conclusão é mais adequada?",
+              "options": [
+                "A porcentagem idêntica demonstra que as condições de acesso e as oportunidades também são iguais.",
+                "O indicador de acesso não mostra, sozinho, diferenças de qualidade, custo e possibilidade de uso; essas dimensões também precisam ser comparadas.",
+                "A diferença de tecnologia permite concluir que nenhum morador do segundo bairro tem acesso à internet.",
+                "A qualidade da conexão não influencia o uso de serviços de estudo, trabalho ou informação."
+              ],
+              "correct": 1,
+              "explanation": "A resposta correta reconhece o limite de um indicador binário: contar quem tem algum acesso não revela se a conexão é rápida, estável ou acessível. Essas condições afetam a possibilidade concreta de aproveitar as redes."
+            }
+          ]
+        },
+        {
+          "id": "3-hum-clima-territorio-3",
+          "title": "Mudanças climáticas: risco territorial e justiça ambiental",
+          "objective": "Distinguir ameaça climática, exposição e vulnerabilidade para comparar riscos entre territórios e justificar prioridades de adaptação com base em justiça ambiental.",
+          "lesson": "A ameaça climática é o evento potencialmente danoso, como uma chuva intensa; exposição indica quem ou o que está no lugar atingido, e vulnerabilidade diz respeito às condições que dificultam evitar danos ou se recuperar. O risco resulta da combinação desses fatores: a mesma ameaça pode causar impactos muito diferentes conforme a localização, a infraestrutura, a renda, a saúde e o acesso a alertas e transporte. Justiça ambiental examina como riscos e benefícios ambientais se distribuem e se as comunidades afetadas participam das decisões e recebem proteção adequada. Assim, uma política justa não culpa quem vive em área de risco: identifica as causas territoriais da exposição e reduz vulnerabilidades com participação dos moradores.",
+          "example": "Uma chuva intensa atinge dois bairros: um tem drenagem e rotas de evacuação; o outro fica em área baixa, alaga com frequência e tem moradores sem transporte e com pouco acesso a alertas. Passo 1: a chuva é a ameaça comum. Passo 2: no bairro baixo, mais moradias estão expostas e a falta de drenagem, transporte e alertas aumenta a vulnerabilidade. Passo 3: conclua que o risco é maior ali e que drenagem, alertas acessíveis e rotas seguras, planejados com os moradores, são respostas prioritárias.",
+          "questions": [
+            {
+              "id": "q-3-hum-clima-territorio-1",
+              "lessonId": "3-hum-clima-territorio-3",
+              "prompt": "Uma mesma chuva intensa atinge dois bairros; um tem drenagem e alertas, e o outro é baixo, alaga com frequência e tem poucas rotas de saída. Qual explicação compara melhor o risco climático?",
+              "options": [
+                "Como a chuva é a mesma, os dois bairros necessariamente enfrentam o mesmo risco.",
+                "O risco depende apenas da intensidade da chuva, não das condições do território.",
+                "A exposição e a vulnerabilidade diferem, então o bairro com alagamentos frequentes e menos proteção pode enfrentar risco maior.",
+                "A presença de moradores em uma área baixa é suficiente para concluir que nenhum tipo de política pode reduzir o risco."
+              ],
+              "correct": 2,
+              "explanation": "A resposta correta considera que o risco não depende só da ameaça. Exposição e vulnerabilidade — como moradias em área sujeita a alagamento e falta de rotas ou alertas — ajudam a explicar por que os impactos podem ser maiores em um bairro."
+            },
+            {
+              "id": "q-3-hum-clima-territorio-2",
+              "lessonId": "3-hum-clima-territorio-3",
+              "prompt": "Uma prefeitura precisa escolher onde iniciar obras de adaptação a chuvas extremas. Os dados mostram maior exposição a alagamentos e menos infraestrutura de proteção em um bairro, e os moradores pedem participação no planejamento. Qual decisão é mais coerente com a justiça ambiental?",
+              "options": [
+                "Priorizar a área com maior exposição e vulnerabilidade, planejar medidas de proteção com os moradores e acompanhar se os benefícios chegam a quem enfrenta o risco.",
+                "Distribuir o orçamento igualmente entre todos os bairros, sem considerar diferenças de exposição ou infraestrutura.",
+                "Escolher apenas a obra mais barata, mesmo que ela não proteja as pessoas mais expostas.",
+                "Adiar qualquer medida até que todos os bairros tenham exatamente o mesmo nível de risco."
+              ],
+              "correct": 0,
+              "explanation": "A alternativa correta usa evidências territoriais para priorizar quem enfrenta maior risco e incorpora participação das pessoas afetadas. Justiça ambiental envolve distribuição de proteção e benefícios, além de processos decisórios inclusivos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "3",
+      "areaId": "nat",
+      "lessons": [
+        {
+          "id": "3-nat-evolucao-selecao-1",
+          "title": "Variação herdável e seleção natural em populações",
+          "objective": "Explicar como diferenças herdáveis entre indivíduos e o sucesso reprodutivo desigual podem alterar, ao longo das gerações, a frequência de características em uma população.",
+          "lesson": "Dentro de uma população, indivíduos podem apresentar variações, e algumas delas são herdáveis, isto é, podem ser transmitidas aos descendentes. Seleção natural é o processo em que, diante de certas condições ambientais, indivíduos com características que favorecem sua sobrevivência e reprodução tendem a deixar mais descendentes. Assim, a frequência dessas características pode aumentar ao longo de gerações: a população evolui, mas cada indivíduo não muda intencionalmente para se adaptar. Uma pressão seletiva, como a presença de antibiótico, favorece variantes que já conseguem sobreviver melhor naquele contexto; ela não produz, por necessidade, a característica desejada.",
+          "example": "Imagine uma população de besouros em que a cor escura é herdável e há também besouros claros. 1) Sobre troncos escuros, aves avistam mais facilmente os besouros claros. 2) Em média, os escuros sobrevivem e deixam mais descendentes. 3) Como a cor pode ser herdada, a proporção de besouros escuros tende a crescer nas gerações seguintes. Resposta: a população pode se tornar mais escura por seleção natural, sem que os besouros mudem de cor por vontade própria.",
+          "questions": [
+            {
+              "id": "3-nat-q-evolucao-1",
+              "lessonId": "3-nat-evolucao-selecao-1",
+              "prompt": "Em uma população de bactérias há variação herdável: algumas bactérias já resistem a certo antibiótico e outras não. Quando o antibiótico é usado, muitas das sensíveis morrem, enquanto algumas resistentes sobrevivem e se reproduzem. Qual interpretação explica melhor o aumento da resistência na população?",
+              "options": [
+                "O antibiótico induz cada bactéria sensível a desenvolver resistência porque ela precisa sobreviver.",
+                "As bactérias resistentes deixam, em média, mais descendentes nesse ambiente, e a característica herdável pode se tornar mais frequente.",
+                "As bactérias sensíveis se transformam em resistentes durante a vida e transmitem essa mudança adquirida.",
+                "A população evolui porque todas as bactérias passam a ter exatamente a mesma característica ao mesmo tempo."
+              ],
+              "correct": 1,
+              "explanation": "A resistência herdável já varia na população; sob o antibiótico, as resistentes têm maior chance de sobreviver e reproduzir-se. Com mais descendentes portadores da característica, sua frequência pode aumentar. Isso é seleção natural, não uma mudança intencional causada pela necessidade."
+            },
+            {
+              "id": "3-nat-q-evolucao-2",
+              "lessonId": "3-nat-evolucao-selecao-1",
+              "prompt": "Uma seca prolongada favorece plantas de uma espécie cujas raízes, por variação herdável, alcançam água em camadas mais profundas do solo. Se essas plantas deixam mais sementes, qual resultado é esperado após várias gerações?",
+              "options": [
+                "A população pode ter maior proporção de plantas com raízes profundas, pois elas contribuíram com mais descendentes.",
+                "Todas as plantas da geração atual alongam suas raízes e passam essa mudança adquirida aos descendentes.",
+                "A seca faz com que as plantas deixem de apresentar qualquer variação herdável.",
+                "A proporção de raízes profundas necessariamente diminui porque essas raízes consomem mais água."
+              ],
+              "correct": 0,
+              "explanation": "Se raízes profundas são herdáveis e aumentam o sucesso reprodutivo durante a seca, seus portadores tendem a deixar mais descendentes. A característica pode ficar mais frequente na população ao longo das gerações; isso não significa que cada planta alterou suas raízes por intenção."
+            }
+          ]
+        },
+        {
+          "id": "3-nat-energia-trabalho-eficiencia-1",
+          "title": "Trabalho mecânico e eficiência no levantamento de cargas",
+          "objective": "Calcular o trabalho realizado por uma força paralela ao deslocamento e a eficiência de um dispositivo a partir das energias de entrada e útil.",
+          "lesson": "Em Física, o trabalho de uma força constante é W = F·d·cos(θ), em que F é a força, d é o deslocamento e θ é o ângulo entre eles; se força e deslocamento têm a mesma direção, W = F·d. Para erguer um objeto sem aceleração significativa, o trabalho útil contra a gravidade é aproximadamente m·g·h, com g ≈ 10 m/s² em exercícios introdutórios. A eficiência é η = (energia útil de saída ÷ energia fornecida) × 100%; parte da energia pode se dissipar, por exemplo, como calor ou som. Portanto, eficiência menor que 100% não significa que energia desapareceu, mas que nem toda a energia fornecida virou o resultado útil considerado.",
+          "example": "Uma caixa de 20 kg é erguida verticalmente por 1,5 m, e use g = 10 m/s². 1) O peso é m·g = 20 × 10 = 200 N. 2) O trabalho útil para elevar a caixa é W = peso × altura = 200 × 1,5 = 300 J. Se o equipamento recebeu 500 J de energia, 3) sua eficiência é (300 ÷ 500) × 100% = 60%. Resposta: o trabalho útil é 300 J e a eficiência, nesse caso, é 60%.",
+          "questions": [
+            {
+              "id": "3-nat-q-trabalho-1",
+              "lessonId": "3-nat-energia-trabalho-eficiencia-1",
+              "prompt": "Uma pessoa empurra um carrinho com força constante de 40 N, na mesma direção do movimento, por 3 m. Desprezando outras forças para o cálculo do trabalho dessa força, quanto trabalho ela realiza sobre o carrinho?",
+              "options": [
+                "13 J",
+                "37 J",
+                "120 J",
+                "400 J"
+              ],
+              "correct": 2,
+              "explanation": "Como força e deslocamento têm a mesma direção, W = F·d = 40 N × 3 m = 120 J. A unidade N·m equivale a joule."
+            },
+            {
+              "id": "3-nat-q-eficiencia-1",
+              "lessonId": "3-nat-energia-trabalho-eficiencia-1",
+              "prompt": "Um pequeno motor recebe 800 J de energia elétrica e fornece 600 J de energia mecânica útil para mover uma carga. Qual é a eficiência do motor nesse processo?",
+              "options": [
+                "25%",
+                "60%",
+                "75%",
+                "133%"
+              ],
+              "correct": 2,
+              "explanation": "A eficiência é a razão entre a energia útil e a energia fornecida, multiplicada por 100: (600 ÷ 800) × 100% = 75%. Os 200 J restantes não foram destruídos; não aparecem como energia mecânica útil e podem ter sido dissipados em outras formas."
+            }
+          ]
+        },
+        {
+          "id": "3-nat-equilibrio-quimico-ph-1",
+          "title": "Equilíbrio do gás em bebidas e escala de pH",
+          "objective": "Relacionar equilíbrio químico e mudanças de pressão em uma bebida gaseificada e interpretar uma variação de pH associada à diluição de uma solução ácida.",
+          "lesson": "Em uma reação reversível, o equilíbrio químico é dinâmico: as reações direta e inversa continuam ocorrendo, mas em velocidades iguais, mantendo constantes as concentrações macroscópicas. Uma mudança nas condições pode deslocar o equilíbrio; por exemplo, ao abrir uma bebida gaseificada, a pressão de CO₂ sobre o líquido diminui e o equilíbrio favorece a saída do gás dissolvido. O pH é definido por pH = −log₁₀[H₃O⁺] em soluções aquosas diluídas; quanto menor o pH, maior a acidez, e uma diferença de uma unidade corresponde a uma mudança de dez vezes na concentração de H₃O⁺. No cotidiano, antiácidos neutralizam parte do ácido do estômago por reação ácido-base, enquanto o comportamento do CO₂ dissolvido ajuda a explicar por que uma bebida aberta perde gás e pode ter sua acidez alterada.",
+          "example": "Considere uma solução ácida diluída com concentração de H₃O⁺ igual a 0,010 mol/L. 1) Escrevendo em potência de dez, 0,010 = 10⁻² mol/L. 2) Então pH = −log₁₀(10⁻²) = 2. 3) Se a solução for diluída dez vezes, a concentração ideal passa a 0,0010 mol/L = 10⁻³ mol/L, e o pH passa a 3. Resposta: nesse modelo, a diluição de dez vezes eleva o pH em uma unidade; a solução continua ácida, mas fica menos ácida.",
+          "questions": [
+            {
+              "id": "3-nat-q-equilibrio-bebida-1",
+              "lessonId": "3-nat-equilibrio-quimico-ph-1",
+              "prompt": "Uma bebida gaseificada permanece fechada sob pressão, com CO₂ dissolvido em equilíbrio com o gás acima do líquido. Ao abrir a garrafa, parte do CO₂ escapa. Qual explicação relaciona corretamente essa observação ao equilíbrio?",
+              "options": [
+                "A abertura aumenta a pressão de CO₂ e desloca o equilíbrio para dissolver mais gás.",
+                "A diminuição da pressão de CO₂ sobre o líquido favorece a passagem de CO₂ dissolvido para a fase gasosa, e o gás escapa.",
+                "O equilíbrio químico significa que as partículas param de reagir, então o gás só sai por causa de uma reação que começou após a abertura.",
+                "A abertura transforma todo o CO₂ dissolvido em oxigênio, que borbulha para fora."
+              ],
+              "correct": 1,
+              "explanation": "Ao abrir a garrafa, a pressão parcial de CO₂ sobre o líquido cai. O equilíbrio dinâmico se desloca de modo a repor parte do CO₂ gasoso, o que envolve a saída do gás dissolvido; por isso surgem bolhas. No equilíbrio, as reações não param: suas velocidades direta e inversa se igualam."
+            },
+            {
+              "id": "3-nat-q-ph-diluicao-1",
+              "lessonId": "3-nat-equilibrio-quimico-ph-1",
+              "prompt": "Uma solução aquosa diluída tem [H₃O⁺] = 1 × 10⁻⁴ mol/L e, portanto, pH 4. Ela é diluída dez vezes com água, supondo comportamento ideal. Qual é o pH aproximado depois da diluição?",
+              "options": [
+                "3, pois a concentração de H₃O⁺ aumenta dez vezes.",
+                "4, pois a diluição não altera a concentração de H₃O⁺.",
+                "5, pois a concentração de H₃O⁺ diminui dez vezes.",
+                "14, pois toda diluição torna a solução neutra."
+              ],
+              "correct": 2,
+              "explanation": "Diluir dez vezes reduz [H₃O⁺] para 1 × 10⁻⁵ mol/L. Como pH = −log₁₀[H₃O⁺], o pH passa a aproximadamente 5, uma unidade acima. A solução permanece ácida, pois o pH ainda é menor que 7."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "3",
+      "areaId": "red",
+      "lessons": [
+        {
+          "id": "3-red-projeto-texto-1",
+          "title": "Projeto de texto: tese e dois eixos que fazem o argumento avançar",
+          "objective": "Formular uma tese delimitada e planejar parágrafos com razões diferentes, evidências pertinentes e progressão lógica.",
+          "lesson": "Projeto de texto é o mapa que organiza a resposta antes da redação: ele liga o recorte do tema, a tese e os argumentos que serão desenvolvidos. Uma fórmula útil para a tese é tema recortado + posição defendida + razões principais; assim, o leitor sabe o que será provado. Em cada parágrafo, organize ideia central, evidência, explicação do que a evidência permite concluir e vínculo com a tese. Há progressão argumentativa quando cada parte acrescenta uma razão ou consequência relevante, em vez de repetir a mesma afirmação com outras palavras.",
+          "example": "Proposta de treino: discutir como reduzir o desperdício de alimentos em escolas. Passo 1 — recorte o problema para o desperdício nas refeições escolares, sem tentar explicar todo o desperdício no país. Passo 2 — tese: parte das sobras pode ser reduzida se as escolas ajustarem as porções oferecidas e planejarem melhor o aproveitamento dos alimentos. Passo 3 — planeje P1 sobre porções padronizadas que podem não corresponder à fome de todos, interpretando com cautela uma auditoria fictícia de sobras; planeje P2 sobre falta de planejamento de armazenamento e reaproveitamento seguro, explicando como isso pode levar a excedentes descartados. Resposta do projeto: dois parágrafos com causas distintas sustentam a mesma tese e permitem propor, depois, ações adequadas a cada causa.",
+          "questions": [
+            {
+              "id": "3-red-projeto-texto-q1",
+              "lessonId": "3-red-projeto-texto-1",
+              "prompt": "Uma redação sobre desperdício de alimentos em escolas defende a tese: “As sobras podem diminuir com porções mais flexíveis e melhor planejamento do aproveitamento dos alimentos”. Qual plano para os parágrafos de desenvolvimento cria a progressão mais consistente?",
+              "options": [
+                "No primeiro parágrafo, explicar como porções padronizadas podem gerar sobras; no segundo, analisar como falhas de planejamento do armazenamento e do aproveitamento também produzem descarte, desenvolvendo uma razão diferente.",
+                "No primeiro parágrafo, explicar que porções padronizadas geram sobras; no segundo, repetir que porções padronizadas geram sobras, apenas acrescentando uma frase de efeito.",
+                "No primeiro parágrafo, explicar o problema das porções; no segundo, mudar para a importância de praticar esportes, sem relacionar a nova ideia à tese.",
+                "No primeiro parágrafo, apresentar uma lista de soluções; no segundo, repetir a tese sem evidências nem explicação das causas."
+              ],
+              "correct": 0,
+              "explanation": "A alternativa correta separa os parágrafos por duas razões que sustentam a mesma tese: o ajuste das porções e o planejamento do aproveitamento. Essa divisão permite desenvolver cada argumento, em vez de apenas repetir a ideia central ou desviar do tema."
+            },
+            {
+              "id": "3-red-projeto-texto-q2",
+              "lessonId": "3-red-projeto-texto-1",
+              "prompt": "Para discutir se porções padronizadas podem contribuir para sobras, um exercício apresenta uma auditoria fictícia de cinco dias em uma escola: houve sobras em quatro dias. Qual frase interpreta melhor esse dado em um parágrafo argumentativo?",
+              "options": [
+                "O resultado comprova que as porções de todas as escolas do país são grandes demais.",
+                "Na escola observada, a repetição de sobras justifica investigar se porções iguais atendem a necessidades diferentes; o registro curto, sozinho, não identifica a causa das sobras.",
+                "A auditoria mostra que a alimentação é um assunto importante para os estudantes.",
+                "Como houve sobras, a escola deve deixar de oferecer refeições."
+              ],
+              "correct": 1,
+              "explanation": "A alternativa correta relaciona a evidência à hipótese discutida, mas respeita seus limites: cinco dias em uma escola não permitem generalizar nem provar a causa. Interpretar evidências inclui explicar o que elas apoiam e o que não demonstram."
+            }
+          ]
+        },
+        {
+          "id": "3-red-fontes-repertorio-1",
+          "title": "Fontes e repertório: verificar, selecionar e integrar evidências",
+          "objective": "Comparar fontes por rastreabilidade, método, atualidade e relevância, e usar evidências sem extrapolar o que os dados mostram.",
+          "lesson": "Uma fonte ganha credibilidade quando é possível identificar sua autoria, origem, data e método; relevância significa que ela ajuda a responder ao recorte específico da redação. Evidência é a informação verificável usada para sustentar uma afirmação, enquanto repertório é um conhecimento ou referência mobilizado para iluminar o problema — nenhum dos dois funciona bem como enfeite sem análise. Para integrar um dado, apresente-o, explique a ligação com seu argumento e delimite seu alcance. Se uma pesquisa ouviu poucas pessoas em uma única escola, ela pode apoiar uma observação local, mas não autoriza concluir que a mesma situação ocorre em todo o Brasil.",
+          "example": "Tema de treino: barreiras à participação de estudantes em reuniões de grêmio escolar. Considere este dossiê inteiramente fictício: as atas públicas de uma escola registram três reuniões realizadas durante o horário de aula; entrevistas exploratórias com cinco estudantes indicam que quatro tinham conflito de horário; uma postagem anônima afirma, sem apresentar dados, que “ninguém se interessa”. Passo 1 — prefira as atas para verificar datas e horários e use as entrevistas como indício de que o conflito atingiu alguns estudantes. Passo 2 — não trate a postagem anônima como prova de desinteresse geral. Passo 3 — escreva: “Na escola observada, atas e entrevistas sugerem que a coincidência entre reuniões e aulas pode dificultar a participação; como os registros são locais e limitados, eles não permitem generalizar para todas as escolas.” Resposta: a evidência é rastreável e pertinente ao argumento, e a conclusão mantém o alcance proporcional ao material disponível.",
+          "questions": [
+            {
+              "id": "3-red-fontes-repertorio-q1",
+              "lessonId": "3-red-fontes-repertorio-1",
+              "prompt": "Para sustentar a afirmação delimitada “o horário das reuniões pode ser uma barreira à participação nesta escola”, qual evidência do dossiê fictício oferece apoio mais pertinente e verificável?",
+              "options": [
+                "As atas públicas registram três reuniões durante o horário de aula, e entrevistas exploratórias com cinco estudantes apontam conflito de horário para quatro deles.",
+                "Uma postagem anônima diz que os estudantes não se interessam, sem explicar quem publicou nem como chegou a essa conclusão.",
+                "Uma frase de efeito sobre a juventude, sem autoria ou relação direta com as reuniões escolares.",
+                "Uma opinião de que toda reunião deveria acontecer à noite, sem registro de horários nem consulta aos estudantes."
+              ],
+              "correct": 0,
+              "explanation": "As atas permitem conferir os horários e as entrevistas oferecem um indício direto sobre o conflito para alguns estudantes. Juntas, elas apoiam uma afirmação local e cautelosa; não autorizam generalizações sobre todas as escolas."
+            },
+            {
+              "id": "3-red-fontes-repertorio-q2",
+              "lessonId": "3-red-fontes-repertorio-1",
+              "prompt": "Em outro trecho do dossiê fictício, as atas mostram que os avisos das três reuniões foram publicados apenas um dia antes. Qual versão integra melhor essa evidência a um argumento sobre divulgação e participação?",
+              "options": [
+                "As atas registram avisos publicados um dia antes das três reuniões; o prazo curto pode ter reduzido o tempo para estudantes se organizarem, embora o registro não prove o que cada pessoa chegou a ver.",
+                "As atas registram avisos publicados um dia antes das reuniões. Esse é o dado, e o parágrafo pode terminar aqui sem explicar sua relação com o argumento.",
+                "As atas provam que nenhum estudante viu os avisos e que a divulgação tardia sempre impede a participação em qualquer escola.",
+                "Como as atas mencionam avisos, fica demonstrado que os estudantes não têm interesse em participar do grêmio."
+              ],
+              "correct": 0,
+              "explanation": "A alternativa correta apresenta o dado e explica como o prazo pode afetar a organização, mas não afirma como certeza aquilo que as atas não registram. Integrar evidência requer análise e cuidado com os limites da fonte."
+            }
+          ]
+        },
+        {
+          "id": "3-red-intervencao-direitos-1",
+          "title": "Proposta de intervenção: ação concreta com respeito aos direitos humanos",
+          "objective": "Elaborar uma intervenção completa para um problema de convivência escolar, detalhando agentes, ação, meios, finalidade e garantias de dignidade e privacidade.",
+          "lesson": "A proposta de intervenção transforma a análise do problema em um plano executável: indique quem age (agente), o que fará (ação), como (meio ou modo), para quê (finalidade) e um detalhe que esclareça a execução ou o acompanhamento. Uma proposta fica mais convincente quando seus elementos respondem às causas discutidas, em vez de oferecer uma recomendação genérica como “conscientizar”. O respeito aos direitos humanos exige proteger dignidade, igualdade, privacidade e participação, evitando exposição humilhante, discriminação, censura indiscriminada ou punição coletiva. Em conflitos, prever escuta, proteção e encaminhamento responsável torna a resposta mais cuidadosa do que simplesmente punir ou silenciar.",
+          "example": "Problema de treino: cyberbullying entre estudantes. Passo 1 — defina agentes: equipe de convivência da escola, com participação do grêmio e orientação pedagógica. Passo 2 — especifique ações e meios: realizar encontros de educação digital por turma e oferecer um canal confidencial para relatar situações, com encaminhamento a profissionais responsáveis. Passo 3 — indique finalidade e detalhe: prevenir novas agressões e apoiar quem foi afetado, revisando a cada bimestre os registros de encaminhamento sem divulgar nomes. Resposta-modelo: “A equipe de convivência escolar, em parceria com o grêmio e a orientação pedagógica, realizará encontros bimestrais de educação digital e manterá um canal confidencial de acolhimento, para prevenir o cyberbullying e orientar os envolvidos; os casos serão encaminhados com escuta das partes e proteção da identidade, sem exposição pública ou discriminação.” A proposta identifica agente, ações, meios, finalidade e salvaguardas de direitos.",
+          "questions": [
+            {
+              "id": "3-red-intervencao-direitos-q1",
+              "lessonId": "3-red-intervencao-direitos-1",
+              "prompt": "Uma conclusão sobre cyberbullying termina com a frase genérica “A escola deve fazer campanhas para resolver o problema”. Qual revisão torna a intervenção mais concreta e respeitosa aos direitos dos estudantes?",
+              "options": [
+                "A equipe de convivência, com o grêmio e a orientação pedagógica, realizará encontros de educação digital e manterá um canal confidencial de acolhimento, para prevenir agressões e apoiar estudantes; os encaminhamentos protegerão a identidade dos envolvidos.",
+                "Todos os estudantes devem ser punidos igualmente, mesmo sem apuração, para que o problema desapareça rapidamente.",
+                "A escola deve proibir toda conversa digital e publicar no mural os nomes de quem for acusado, para servir de exemplo.",
+                "A comunidade precisa refletir sobre a importância do respeito, pois o respeito é importante para uma boa convivência."
+              ],
+              "correct": 0,
+              "explanation": "A alternativa correta define agentes, ações, meios e finalidade, além de prever confidencialidade. A combinação torna a proposta executável e protege a dignidade e a privacidade, ao contrário de uma recomendação vaga ou de medidas humilhantes e coletivas."
+            },
+            {
+              "id": "3-red-intervencao-direitos-q2",
+              "lessonId": "3-red-intervencao-direitos-1",
+              "prompt": "Ao elaborar um protocolo contra cyberbullying, uma escola considera expor publicamente os nomes de estudantes acusados antes de apurar os relatos. Qual alternativa preserva a finalidade de enfrentar o problema e evita violar direitos?",
+              "options": [
+                "Manter a exposição como forma de advertência, mas retirar os nomes depois de uma semana.",
+                "Substituir a exposição por escuta reservada dos envolvidos, proteção imediata de quem relata dano, apuração responsável e encaminhamentos proporcionais, preservando a identidade.",
+                "Cancelar todo uso de internet por todos os estudantes, sem analisar o caso nem ouvir a comunidade.",
+                "Publicar apenas as iniciais dos acusados e presumir que todo relato está comprovado antes de ouvir as partes."
+              ],
+              "correct": 1,
+              "explanation": "A alternativa correta mantém a prevenção e o atendimento, mas troca a exposição por confidencialidade, escuta e apuração responsável. Isso respeita dignidade e privacidade e evita tratar uma acusação como prova antes de examinar o caso."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

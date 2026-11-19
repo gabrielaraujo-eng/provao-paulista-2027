@@ -1,16 +1,17 @@
 # Provão Paulista 2027
 
-Um site estático de estudo, em português, para organizar a revisão do Provão Paulista em sprints curtos. A experiência foi inspirada no ritmo direto do Matemática Blitz, com identidade própria e foco em mobile.
+Um site estático de estudo, em português, para aprender e praticar conteúdos do Ensino Médio em trilhas, miniaulas e sprints curtos. A experiência mantém a identidade própria e o foco em mobile.
 
-> O mapa de temas é uma base inicial de estudos alinhada ao Currículo Paulista e a referências públicas. Ele não substitui o edital, as matrizes ou as orientações oficiais da edição 2027.
+> As aulas e questões são originais e formam um ponto de partida para estudar por série. Não são material oficial nem substituem o edital, a matriz ou as orientações da edição 2027.
 
 ## O que existe
 
-- Trilhas de Matemática, Linguagens, Humanas, Natureza e Redação.
-- Seleção da série do Ensino Médio.
-- Sprint com questões rápidas e explicação após a resposta.
-- Marcação de tópicos concluídos, progresso e desempenho salvos no `localStorage` do navegador.
-- Alto contraste persistente, estados acessíveis dos controles e foco de teclado visível.
+- Cinco trilhas com conteúdos diferentes para a 1ª, 2ª e 3ª séries.
+- 45 miniaulas com explicações, exemplos resolvidos e exercícios de múltipla escolha comentados.
+- Banco de 90 questões originais; sprint diário de cinco questões escolhido conforme série e data local.
+- Aulas concluídas, desempenho e preferência de tema salvos no `localStorage` do navegador.
+- Alternância persistente entre tema claro e escuro, estados acessíveis dos controles e foco de teclado visível.
+- Questões e aulas criadas para prática: não são questões oficiais nem substituem edital ou matriz oficial.
 - Layout responsivo e confortável para celular.
 - SEO inicial completo: canonical, Open Graph, Twitter Card, JSON-LD, favicon, `robots.txt` e `sitemap.xml`.
 - Publicação automática da pasta `public/` no GitHub Pages.
@@ -30,6 +31,7 @@ index.html               entrada da raiz; encaminha para public/
 public/index.html       estrutura da interface
 public/style.css        identidade visual e responsividade
 public/script.js        trilhas, questões e progresso local
+public/data/courses.json aulas e banco original de questões por série
 public/manus-routes.json rotas declaradas do site
 public/assets/          favicon e imagens de compartilhamento
 public/robots.txt       regras para rastreadores
