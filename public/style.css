@@ -137,9 +137,9 @@ button { -webkit-tap-highlight-color: transparent; }
 .method-card .eyebrow { color: #9bc4d8; }
 .method-card h2 { max-width: 310px; margin-bottom: 25px; color: #fff; font-size: 2.1rem; }
 .method-card ol { display: grid; gap: 18px; margin: 0; padding: 0; counter-reset: method; list-style: none; }
-.method-card li { display: grid; grid-template-columns: 30px 1fr; gap: 10px; counter-increment: method; }
+.method-card li { display: grid; grid-template-columns: 30px max-content minmax(0, 1fr); gap: 10px; counter-increment: method; }
 .method-card li:before { color: #ffc47c; content: counter(method, decimal-leading-zero); font-weight: 900; }
-.method-card li b, .method-card li span { display: block; }
+.method-card li b, .method-card li span { display: block; min-width: 0; }
 .method-card li span { color: #b8c6ca; font-size: .83rem; }
 .progress-section { margin-top: 38px; }
 .progress-section .section-head { margin-bottom: 20px; }
