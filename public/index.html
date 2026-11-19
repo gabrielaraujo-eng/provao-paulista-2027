@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5efe5">
+  <meta name="description" content="Estude para o Provão Paulista 2027 com trilhas de revisão, sprints rápidos e progresso salvo no navegador.">
+  <meta name="author" content="Gabriel Araújo">
+  <meta property="og:title" content="Provão Paulista 2027 · estudo em ritmo de sprint">
+  <meta property="og:description" content="Um mapa de estudos simples para revisar Matemática, Linguagens, Humanas, Natureza e Redação.">
+  <meta property="og:type" content="website">
+  <title>Provão Paulista 2027 · estude em ritmo de sprint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span><strong>Provão Paulista</strong><small>estudo 2027</small></span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#trilhas">Trilhas</a>
+        <a href="#sprint">Sprint</a>
+        <a href="#progresso">Progresso</a>
+      </nav>
+      <button class="icon-btn" id="btn-theme" type="button" title="Alternar contraste" aria-label="Alternar contraste">◐</button>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">um passo por vez · sem enrolação</p>
+          <h1 id="hero-title">Estude para o <em>Provão</em> sem se perder.</h1>
+          <p class="lead">Um mapa de revisão para transformar matérias grandes em sprints curtos, claros e possíveis de manter.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#sprint">Começar sprint <span>→</span></a>
+            <a class="text-link" href="#trilhas">Ver trilhas</a>
+          </div>
+        </div>
+        <aside class="focus-card" aria-label="Seu foco de hoje">
+          <div class="focus-label">seu foco de hoje</div>
+          <div class="focus-number" id="focus-number">01</div>
+          <strong id="focus-title">Escolha uma trilha</strong>
+          <p id="focus-text">Comece por uma área e marque seu primeiro tópico concluído.</p>
+          <div class="mini-progress"><i id="focus-bar"></i></div>
+          <span id="focus-meta">0 tópicos concluídos</span>
+        </aside>
+      </section>
+
+      <section class="notice" aria-label="Aviso sobre o conteúdo">
+        <span class="notice-mark">i</span>
+        <p>Este é um mapa de estudos inicial baseado no Currículo Paulista e em referências públicas. Confira o edital e as orientações oficiais do <a href="https://provaopaulistaseriado.vunesp.com.br/" target="_blank" rel="noreferrer">Provão Paulista Seriado</a> quando forem publicados.</p>
+      </section>
+
+      <section class="section" id="trilhas" aria-labelledby="trilhas-title">
+        <div class="section-head"><div><p class="eyebrow">mapa de revisão</p><h2 id="trilhas-title">Escolha sua trilha</h2></div><label class="series-select">Série <select id="series-select"><option value="1">1ª série</option><option value="2">2ª série</option><option value="3">3ª série</option></select></label></div>
+        <div class="tracks" id="tracks"></div>
+      </section>
+
+      <section class="section split" id="sprint" aria-labelledby="sprint-title">
+        <div class="sprint-panel">
+          <div class="section-head compact"><div><p class="eyebrow">treino relâmpago</p><h2 id="sprint-title">Sprint do dia</h2></div><span class="pill" id="question-count">1 de 5</span></div>
+          <p class="sprint-intro">Cinco questões rápidas para aquecer. Não vale decorar: tente explicar seu raciocínio.</p>
+          <div class="question-card" id="question-card">
+            <span class="question-area" id="question-area">Matemática</span>
+            <h3 id="question-text">Carregando questão...</h3>
+            <div class="answers" id="answers"></div>
+            <p class="feedback" id="feedback" role="status" aria-live="polite"></p>
+          </div>
+          <div class="sprint-footer"><button class="btn btn-primary" id="btn-next" type="button" disabled>Próxima questão <span>→</span></button><button class="text-btn" id="btn-reset-sprint" type="button">Recomeçar</button></div>
+        </div>
+        <aside class="method-card">
+          <p class="eyebrow">método de revisão</p>
+          <h2>Entender primeiro. Marcar depois.</h2>
+          <ol><li><b>Leia</b><span>identifique o que a questão realmente pede.</span></li><li><b>Resolva</b><span>anote uma estratégia, mesmo que seja curta.</span></li><li><b>Revise</b><span>volte ao tópico quando errar ou chutar.</span></li></ol>
+        </aside>
+      </section>
+
+      <section class="section progress-section" id="progresso" aria-labelledby="progress-title">
+        <div class="section-head"><div><p class="eyebrow">constância vence a pressa</p><h2 id="progress-title">Seu progresso</h2></div><button class="text-btn" id="btn-clear" type="button">Zerar progresso</button></div>
+        <div class="progress-grid"><div class="progress-total"><strong id="progress-percent">0%</strong><span>do mapa concluído</span><div class="big-progress"><i id="progress-bar"></i></div></div><div class="stat"><strong id="stat-done">0</strong><span>tópicos feitos</span></div><div class="stat"><strong id="stat-sprints">0</strong><span>sprints completos</span></div><div class="stat"><strong id="stat-accuracy">—</strong><span>precisão nos sprints</span></div></div>
+      </section>
+    </main>
+
+    <footer><span>Feito para estudar com mais clareza.</span><a href="https://github.com/gabrielaraujo-eng" target="_blank" rel="noreferrer">por Gabriel Araújo</a></footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
