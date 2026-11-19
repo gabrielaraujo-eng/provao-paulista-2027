@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://gabrielaraujo-eng.github.io/provao-paulista-2027/sitemap.xml

@@ -11,6 +11,7 @@ Um site estático de estudo, em português, para organizar a revisão do Provão
 - Sprint com questões rápidas e explicação após a resposta.
 - Progresso e desempenho salvos no `localStorage` do navegador.
 - Layout responsivo e confortável para celular.
+- SEO inicial completo: canonical, Open Graph, Twitter Card, JSON-LD, favicon, `robots.txt` e `sitemap.xml`.
 - Publicação automática da pasta `public/` no GitHub Pages.
 
 ## Rodar localmente
@@ -29,6 +30,9 @@ public/index.html       estrutura da interface
 public/style.css        identidade visual e responsividade
 public/script.js        trilhas, questões e progresso local
 public/manus-routes.json rotas declaradas do site
+public/assets/          favicon e imagens de compartilhamento
+public/robots.txt       regras para rastreadores
+public/sitemap.xml      URL canônica do site
 .github/workflows/      publicação do site no GitHub Pages
 ```
 
